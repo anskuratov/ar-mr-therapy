@@ -330,10 +330,10 @@ __pycache__/
 # should be stored in the .pubxml.user file.
 
 ### Maya ###
-Resources/*/maya/**
+Resources/*/maya/*
 !Resources/*/maya/*.mb
 !Resources/*/maya/*.ma
-!Resources/*/maya/Assets/**
+!Resources/snake/maya/Assets
 
 ### Substance Painter 2 ###
 Resources/*/substance-painter/**
