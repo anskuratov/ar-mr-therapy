@@ -1,0 +1,4 @@
+Resources/*/maya/*.mb filter=lfs diff=lfs merge=lfs -text
+Resources/*/maya/*.ma filter=lfs diff=lfs merge=lfs -text
+Resources/*/maya/Assets/** filter=lfs diff=lfs merge=lfs -text
+Resources/*/substance-painter/*.spp filter=lfs diff=lfs merge=lfs -text
