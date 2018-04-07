@@ -1364,6 +1364,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4010846271851162}
   - component: {fileID: 95700288618416304}
+  - component: {fileID: 114617136784574534}
+  - component: {fileID: 135558321288749992}
   m_Layer: 0
   m_Name: Spider
   m_TagString: Untagged
@@ -3024,6 +3026,48 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114617136784574534
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1788765671968512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81f9f42e3ed5b417f97d7297e8ea7582, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 0
+  m_timestamp: -1
+  m_deviceTMarker:
+    e00: 0
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 0
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 0
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 0
+--- !u!135 &135558321288749992
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1788765671968512}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.04
+  m_Center: {x: 0, y: 0.01, z: 0.03}
 --- !u!137 &137142298082293170
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

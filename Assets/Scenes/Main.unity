@@ -116,31 +116,14 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 277448896}
-  - component: {fileID: 277448895}
+  - component: {fileID: 277448897}
   m_Layer: 0
-  m_Name: GUIController
+  m_Name: InputController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &277448895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 277448894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78760276f84c94c678297fc65f4ec855, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_prefabMarker: {fileID: 1788765671968512, guid: 485ac22327afae045b486bfff6e63f1e,
-    type: 2}
-  m_prefabTouchEffect: {fileID: 22497430, guid: 5a77b678bf7604d5fb4f0b5399e89224,
-    type: 2}
-  m_canvas: {fileID: 694750546}
-  m_pointCloud: {fileID: 1711968357}
 --- !u!4 &277448896
 Transform:
   m_ObjectHideFlags: 0
@@ -154,6 +137,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &277448897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 277448894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff31b132d1939784a84ef3c23df4348a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _prefabMarker: {fileID: 1788765671968512, guid: 485ac22327afae045b486bfff6e63f1e,
+    type: 2}
+  _prefabTouchEffect: {fileID: 22497430, guid: 5a77b678bf7604d5fb4f0b5399e89224, type: 2}
+  _pointCloud: {fileID: 1711968357}
+  _canvas: {fileID: 694750546}
 --- !u!1001 &331246954
 Prefab:
   m_ObjectHideFlags: 0
