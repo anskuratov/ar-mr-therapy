@@ -346,8 +346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78760276f84c94c678297fc65f4ec855, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_prefabMarker: {fileID: 1629339506904336, guid: 6b7ddc6dd24038e43aed45611f2dc549,
-    type: 2}
+  m_prefabMarker: {fileID: 188320, guid: eca66899b90504167b643aadeaadf7e2, type: 2}
   m_prefabTouchEffect: {fileID: 22497430, guid: 5a77b678bf7604d5fb4f0b5399e89224,
     type: 2}
   m_canvas: {fileID: 1158102795}
