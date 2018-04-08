@@ -43,7 +43,6 @@ namespace Sources.Behaviours {
         private Rect _selectedRect;
         
         private ARMarker _selectedMarker;
-        private ARCameraPostProcess _arCameraPostProcess;
         private TangoApplication _tangoApplication;
         private TangoARPoseController _tangoPose;
 
@@ -54,7 +53,6 @@ namespace Sources.Behaviours {
             _fpsText = "FPS = Calculating";
             _tangoApplication = FindObjectOfType<TangoApplication>();
             _tangoPose = FindObjectOfType<TangoARPoseController>();
-            _arCameraPostProcess = FindObjectOfType<ARCameraPostProcess>();
             _tangoServiceVersion = TangoApplication.GetTangoServiceVersion();
 
             _tangoApplication.Register(this);
