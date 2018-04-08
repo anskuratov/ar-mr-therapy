@@ -1,0 +1,778 @@
+fileFormatVersion: 2
+guid: bf0743a76451ef342bc3f40f9ed6a3cb
+timeCreated: 1523181283
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: body
+    100002: body 1
+    100004: //RootNode
+    100006: hel_l_control
+    100008: hel_r_control
+    100010: ikHandle
+    100012: ikHandle_0_l
+    100014: ikHandle_0_r
+    100016: ikHandle_1_l
+    100018: ikHandle_1_r
+    100020: ikHandle_2_l
+    100022: ikHandle_2_r
+    100024: ikHandle_3_l
+    100026: ikHandle_3_r
+    100028: ikHandle_4_l
+    100030: ikHandle_4_r
+    100032: ikHandle_l
+    100034: ikHandle_r
+    100036: joint2
+    100038: joint3
+    100040: joint4
+    100042: joint5
+    100044: joint6
+    100046: leg_00_l
+    100048: leg_00_r
+    100050: leg_01_l
+    100052: leg_01_r
+    100054: leg_02_l
+    100056: leg_02_r
+    100058: leg_03_l
+    100060: leg_03_r
+    100062: leg_0_l_control
+    100064: leg_0_r_control
+    100066: leg_1
+    100068: leg_10_l
+    100070: leg_10_r
+    100072: leg_11_l
+    100074: leg_11_r
+    100076: leg_12_l
+    100078: leg_12_r
+    100080: leg_13_l
+    100082: leg_13_r
+    100084: leg_14_l
+    100086: leg_14_r
+    100088: leg_1_l
+    100090: leg_1_l_control
+    100092: leg_1_r
+    100094: leg_1_r_control
+    100096: leg_2
+    100098: leg_20_l
+    100100: leg_20_r
+    100102: leg_21_l
+    100104: leg_21_r
+    100106: leg_22_l
+    100108: leg_22_r
+    100110: leg_23_l
+    100112: leg_23_r
+    100114: leg_24_l
+    100116: leg_24_r
+    100118: leg_2_l
+    100120: leg_2_l_control
+    100122: leg_2_r
+    100124: leg_2_r_control
+    100126: leg_3
+    100128: leg_30_l
+    100130: leg_30_r
+    100132: leg_31_l
+    100134: leg_31_r
+    100136: leg_32_l
+    100138: leg_32_r
+    100140: leg_33_l
+    100142: leg_33_r
+    100144: leg_34_l
+    100146: leg_34_r
+    100148: leg_3_l
+    100150: leg_3_l_control
+    100152: leg_3_r
+    100154: leg_3_r_control
+    100156: leg_4
+    100158: leg_40_l
+    100160: leg_40_r
+    100162: leg_41_l
+    100164: leg_41_r
+    100166: leg_42_l
+    100168: leg_42_r
+    100170: leg_43_l
+    100172: leg_43_r
+    100174: leg_44_l
+    100176: leg_44_r
+    100178: leg_4_l
+    100180: leg_4_l_control
+    100182: leg_4_r
+    100184: leg_4_r_control
+    100186: legs
+    100188: nurbsCircle1
+    100190: rig_body
+    100192: rig_legs
+    100194: s_ass_control1
+    100196: s_body_control
+    100198: s_root_control
+    100200: spider_body
+    100202: spider_curves
+    100204: spider_mesh
+    100206: spider_rig
+    400000: body
+    400002: body 1
+    400004: //RootNode
+    400006: hel_l_control
+    400008: hel_r_control
+    400010: ikHandle
+    400012: ikHandle_0_l
+    400014: ikHandle_0_r
+    400016: ikHandle_1_l
+    400018: ikHandle_1_r
+    400020: ikHandle_2_l
+    400022: ikHandle_2_r
+    400024: ikHandle_3_l
+    400026: ikHandle_3_r
+    400028: ikHandle_4_l
+    400030: ikHandle_4_r
+    400032: ikHandle_l
+    400034: ikHandle_r
+    400036: joint2
+    400038: joint3
+    400040: joint4
+    400042: joint5
+    400044: joint6
+    400046: leg_00_l
+    400048: leg_00_r
+    400050: leg_01_l
+    400052: leg_01_r
+    400054: leg_02_l
+    400056: leg_02_r
+    400058: leg_03_l
+    400060: leg_03_r
+    400062: leg_0_l_control
+    400064: leg_0_r_control
+    400066: leg_1
+    400068: leg_10_l
+    400070: leg_10_r
+    400072: leg_11_l
+    400074: leg_11_r
+    400076: leg_12_l
+    400078: leg_12_r
+    400080: leg_13_l
+    400082: leg_13_r
+    400084: leg_14_l
+    400086: leg_14_r
+    400088: leg_1_l
+    400090: leg_1_l_control
+    400092: leg_1_r
+    400094: leg_1_r_control
+    400096: leg_2
+    400098: leg_20_l
+    400100: leg_20_r
+    400102: leg_21_l
+    400104: leg_21_r
+    400106: leg_22_l
+    400108: leg_22_r
+    400110: leg_23_l
+    400112: leg_23_r
+    400114: leg_24_l
+    400116: leg_24_r
+    400118: leg_2_l
+    400120: leg_2_l_control
+    400122: leg_2_r
+    400124: leg_2_r_control
+    400126: leg_3
+    400128: leg_30_l
+    400130: leg_30_r
+    400132: leg_31_l
+    400134: leg_31_r
+    400136: leg_32_l
+    400138: leg_32_r
+    400140: leg_33_l
+    400142: leg_33_r
+    400144: leg_34_l
+    400146: leg_34_r
+    400148: leg_3_l
+    400150: leg_3_l_control
+    400152: leg_3_r
+    400154: leg_3_r_control
+    400156: leg_4
+    400158: leg_40_l
+    400160: leg_40_r
+    400162: leg_41_l
+    400164: leg_41_r
+    400166: leg_42_l
+    400168: leg_42_r
+    400170: leg_43_l
+    400172: leg_43_r
+    400174: leg_44_l
+    400176: leg_44_r
+    400178: leg_4_l
+    400180: leg_4_l_control
+    400182: leg_4_r
+    400184: leg_4_r_control
+    400186: legs
+    400188: nurbsCircle1
+    400190: rig_body
+    400192: rig_legs
+    400194: s_ass_control1
+    400196: s_body_control
+    400198: s_root_control
+    400200: spider_body
+    400202: spider_curves
+    400204: spider_mesh
+    400206: spider_rig
+    4300000: spider_body
+    4300002: leg_1_r
+    4300004: leg_1_l
+    4300006: leg_2_r
+    4300008: leg_2_l
+    4300010: leg_3_r
+    4300012: leg_3_l
+    4300014: leg_4_r
+    4300016: leg_4_l
+    7400000: spider_fear_end_full
+    7400002: spider_fear_end
+    9500000: //RootNode
+    13700000: leg_1_l
+    13700002: leg_1_r
+    13700004: leg_2_l
+    13700006: leg_2_r
+    13700008: leg_3_l
+    13700010: leg_3_r
+    13700012: leg_4_l
+    13700014: leg_4_r
+    13700016: spider_body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: spider_fear_end_full
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 205
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ikHandle
+        weight: 1
+      - path: ikHandle/ikHandle_l
+        weight: 1
+      - path: ikHandle/ikHandle_l/ikHandle_0_l
+        weight: 1
+      - path: ikHandle/ikHandle_l/ikHandle_1_l
+        weight: 1
+      - path: ikHandle/ikHandle_l/ikHandle_2_l
+        weight: 1
+      - path: ikHandle/ikHandle_l/ikHandle_3_l
+        weight: 1
+      - path: ikHandle/ikHandle_l/ikHandle_4_l
+        weight: 1
+      - path: ikHandle/ikHandle_r
+        weight: 1
+      - path: ikHandle/ikHandle_r/ikHandle_0_r
+        weight: 1
+      - path: ikHandle/ikHandle_r/ikHandle_1_r
+        weight: 1
+      - path: ikHandle/ikHandle_r/ikHandle_2_r
+        weight: 1
+      - path: ikHandle/ikHandle_r/ikHandle_3_r
+        weight: 1
+      - path: ikHandle/ikHandle_r/ikHandle_4_r
+        weight: 1
+      - path: spider_curves
+        weight: 1
+      - path: spider_curves/leg_1_l_control
+        weight: 1
+      - path: spider_curves/leg_1_r_control
+        weight: 1
+      - path: spider_curves/leg_2_l_control
+        weight: 1
+      - path: spider_curves/leg_2_r_control
+        weight: 1
+      - path: spider_curves/leg_3_l_control
+        weight: 1
+      - path: spider_curves/leg_3_r_control
+        weight: 1
+      - path: spider_curves/leg_4_l_control
+        weight: 1
+      - path: spider_curves/leg_4_r_control
+        weight: 1
+      - path: spider_curves/nurbsCircle1
+        weight: 1
+      - path: spider_curves/nurbsCircle1/hel_l_control
+        weight: 1
+      - path: spider_curves/nurbsCircle1/hel_r_control
+        weight: 1
+      - path: spider_curves/nurbsCircle1/leg_0_l_control
+        weight: 1
+      - path: spider_curves/nurbsCircle1/leg_0_r_control
+        weight: 1
+      - path: spider_curves/nurbsCircle1/s_ass_control1
+        weight: 1
+      - path: spider_curves/nurbsCircle1/s_body_control
+        weight: 1
+      - path: spider_curves/s_root_control
+        weight: 1
+      - path: spider_mesh
+        weight: 1
+      - path: spider_mesh/body
+        weight: 1
+      - path: spider_mesh/body/spider_body
+        weight: 1
+      - path: spider_mesh/legs
+        weight: 1
+      - path: spider_mesh/legs/leg_1
+        weight: 1
+      - path: spider_mesh/legs/leg_1/leg_1_l
+        weight: 1
+      - path: spider_mesh/legs/leg_1/leg_1_r
+        weight: 1
+      - path: spider_mesh/legs/leg_2
+        weight: 1
+      - path: spider_mesh/legs/leg_2/leg_2_l
+        weight: 1
+      - path: spider_mesh/legs/leg_2/leg_2_r
+        weight: 1
+      - path: spider_mesh/legs/leg_3
+        weight: 1
+      - path: spider_mesh/legs/leg_3/leg_3_l
+        weight: 1
+      - path: spider_mesh/legs/leg_3/leg_3_r
+        weight: 1
+      - path: spider_mesh/legs/leg_4
+        weight: 1
+      - path: spider_mesh/legs/leg_4/leg_4_l
+        weight: 1
+      - path: spider_mesh/legs/leg_4/leg_4_r
+        weight: 1
+      - path: spider_rig
+        weight: 1
+      - path: spider_rig/rig_body
+        weight: 1
+      - path: spider_rig/rig_body/body 1
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/joint3
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/joint3/joint4
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_10_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_10_l/leg_11_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_10_l/leg_11_l/leg_12_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_10_l/leg_11_l/leg_12_l/leg_13_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_10_l/leg_11_l/leg_12_l/leg_13_l/leg_14_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_10_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_10_r/leg_11_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_10_r/leg_11_r/leg_12_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_10_r/leg_11_r/leg_12_r/leg_13_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_10_r/leg_11_r/leg_12_r/leg_13_r/leg_14_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_20_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_20_l/leg_21_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_20_l/leg_21_l/leg_22_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_20_l/leg_21_l/leg_22_l/leg_23_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_20_l/leg_21_l/leg_22_l/leg_23_l/leg_24_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_20_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_20_r/leg_21_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_20_r/leg_21_r/leg_22_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_20_r/leg_21_r/leg_22_r/leg_23_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_20_r/leg_21_r/leg_22_r/leg_23_r/leg_24_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_30_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_30_l/leg_31_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_30_l/leg_31_l/leg_32_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_30_l/leg_31_l/leg_32_l/leg_33_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_30_l/leg_31_l/leg_32_l/leg_33_l/leg_34_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_30_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_30_r/leg_31_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_30_r/leg_31_r/leg_32_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_30_r/leg_31_r/leg_32_r/leg_33_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_30_r/leg_31_r/leg_32_r/leg_33_r/leg_34_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_40_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_40_l/leg_41_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_40_l/leg_41_l/leg_42_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_40_l/leg_41_l/leg_42_l/leg_43_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_40_l/leg_41_l/leg_42_l/leg_43_l/leg_44_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_40_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_40_r/leg_41_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_40_r/leg_41_r/leg_42_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_40_r/leg_41_r/leg_42_r/leg_43_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_40_r/leg_41_r/leg_42_r/leg_43_r/leg_44_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint5
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint6
+        weight: 1
+      - path: spider_rig/rig_body/body 1/leg_00_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/leg_00_l/leg_01_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/leg_00_l/leg_01_l/leg_02_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/leg_00_l/leg_01_l/leg_02_l/leg_03_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/leg_00_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/leg_00_r/leg_01_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/leg_00_r/leg_01_r/leg_02_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/leg_00_r/leg_01_r/leg_02_r/leg_03_r
+        weight: 1
+      - path: spider_rig/rig_legs
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: spider_fear_end
+      takeName: Take 001
+      firstFrame: 110
+      lastFrame: 196
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ikHandle
+        weight: 1
+      - path: ikHandle/ikHandle_l
+        weight: 1
+      - path: ikHandle/ikHandle_l/ikHandle_0_l
+        weight: 1
+      - path: ikHandle/ikHandle_l/ikHandle_1_l
+        weight: 1
+      - path: ikHandle/ikHandle_l/ikHandle_2_l
+        weight: 1
+      - path: ikHandle/ikHandle_l/ikHandle_3_l
+        weight: 1
+      - path: ikHandle/ikHandle_l/ikHandle_4_l
+        weight: 1
+      - path: ikHandle/ikHandle_r
+        weight: 1
+      - path: ikHandle/ikHandle_r/ikHandle_0_r
+        weight: 1
+      - path: ikHandle/ikHandle_r/ikHandle_1_r
+        weight: 1
+      - path: ikHandle/ikHandle_r/ikHandle_2_r
+        weight: 1
+      - path: ikHandle/ikHandle_r/ikHandle_3_r
+        weight: 1
+      - path: ikHandle/ikHandle_r/ikHandle_4_r
+        weight: 1
+      - path: spider_curves
+        weight: 1
+      - path: spider_curves/leg_1_l_control
+        weight: 1
+      - path: spider_curves/leg_1_r_control
+        weight: 1
+      - path: spider_curves/leg_2_l_control
+        weight: 1
+      - path: spider_curves/leg_2_r_control
+        weight: 1
+      - path: spider_curves/leg_3_l_control
+        weight: 1
+      - path: spider_curves/leg_3_r_control
+        weight: 1
+      - path: spider_curves/leg_4_l_control
+        weight: 1
+      - path: spider_curves/leg_4_r_control
+        weight: 1
+      - path: spider_curves/nurbsCircle1
+        weight: 1
+      - path: spider_curves/nurbsCircle1/hel_l_control
+        weight: 1
+      - path: spider_curves/nurbsCircle1/hel_r_control
+        weight: 1
+      - path: spider_curves/nurbsCircle1/leg_0_l_control
+        weight: 1
+      - path: spider_curves/nurbsCircle1/leg_0_r_control
+        weight: 1
+      - path: spider_curves/nurbsCircle1/s_ass_control1
+        weight: 1
+      - path: spider_curves/nurbsCircle1/s_body_control
+        weight: 1
+      - path: spider_curves/s_root_control
+        weight: 1
+      - path: spider_mesh
+        weight: 1
+      - path: spider_mesh/body
+        weight: 1
+      - path: spider_mesh/body/spider_body
+        weight: 1
+      - path: spider_mesh/legs
+        weight: 1
+      - path: spider_mesh/legs/leg_1
+        weight: 1
+      - path: spider_mesh/legs/leg_1/leg_1_l
+        weight: 1
+      - path: spider_mesh/legs/leg_1/leg_1_r
+        weight: 1
+      - path: spider_mesh/legs/leg_2
+        weight: 1
+      - path: spider_mesh/legs/leg_2/leg_2_l
+        weight: 1
+      - path: spider_mesh/legs/leg_2/leg_2_r
+        weight: 1
+      - path: spider_mesh/legs/leg_3
+        weight: 1
+      - path: spider_mesh/legs/leg_3/leg_3_l
+        weight: 1
+      - path: spider_mesh/legs/leg_3/leg_3_r
+        weight: 1
+      - path: spider_mesh/legs/leg_4
+        weight: 1
+      - path: spider_mesh/legs/leg_4/leg_4_l
+        weight: 1
+      - path: spider_mesh/legs/leg_4/leg_4_r
+        weight: 1
+      - path: spider_rig
+        weight: 1
+      - path: spider_rig/rig_body
+        weight: 1
+      - path: spider_rig/rig_body/body 1
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/joint3
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/joint3/joint4
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_10_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_10_l/leg_11_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_10_l/leg_11_l/leg_12_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_10_l/leg_11_l/leg_12_l/leg_13_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_10_l/leg_11_l/leg_12_l/leg_13_l/leg_14_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_10_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_10_r/leg_11_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_10_r/leg_11_r/leg_12_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_10_r/leg_11_r/leg_12_r/leg_13_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_10_r/leg_11_r/leg_12_r/leg_13_r/leg_14_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_20_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_20_l/leg_21_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_20_l/leg_21_l/leg_22_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_20_l/leg_21_l/leg_22_l/leg_23_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_20_l/leg_21_l/leg_22_l/leg_23_l/leg_24_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_20_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_20_r/leg_21_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_20_r/leg_21_r/leg_22_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_20_r/leg_21_r/leg_22_r/leg_23_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_20_r/leg_21_r/leg_22_r/leg_23_r/leg_24_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_30_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_30_l/leg_31_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_30_l/leg_31_l/leg_32_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_30_l/leg_31_l/leg_32_l/leg_33_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_30_l/leg_31_l/leg_32_l/leg_33_l/leg_34_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_30_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_30_r/leg_31_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_30_r/leg_31_r/leg_32_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_30_r/leg_31_r/leg_32_r/leg_33_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_30_r/leg_31_r/leg_32_r/leg_33_r/leg_34_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_40_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_40_l/leg_41_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_40_l/leg_41_l/leg_42_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_40_l/leg_41_l/leg_42_l/leg_43_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_40_l/leg_41_l/leg_42_l/leg_43_l/leg_44_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_40_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_40_r/leg_41_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_40_r/leg_41_r/leg_42_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_40_r/leg_41_r/leg_42_r/leg_43_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint2/leg_40_r/leg_41_r/leg_42_r/leg_43_r/leg_44_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint5
+        weight: 1
+      - path: spider_rig/rig_body/body 1/joint6
+        weight: 1
+      - path: spider_rig/rig_body/body 1/leg_00_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/leg_00_l/leg_01_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/leg_00_l/leg_01_l/leg_02_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/leg_00_l/leg_01_l/leg_02_l/leg_03_l
+        weight: 1
+      - path: spider_rig/rig_body/body 1/leg_00_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/leg_00_r/leg_01_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/leg_00_r/leg_01_r/leg_02_r
+        weight: 1
+      - path: spider_rig/rig_body/body 1/leg_00_r/leg_01_r/leg_02_r/leg_03_r
+        weight: 1
+      - path: spider_rig/rig_legs
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
