@@ -44,12 +44,14 @@ namespace Sources.Behaviours {
         private ARObjectBehaviour _selectedMarker;
         private TangoApplication _tangoApplication;
         private TangoARPoseController _tangoPose;
+        private GameObject _objectInstance;
 
         private void Start() {
             _currentFPS = 0;
             _framesSinceUpdate = 0;
             _currentTime = 0.0f;
             _fpsText = string.Empty;
+            _objectInstance = null;
 
             _tangoPose = FindObjectOfType<TangoARPoseController>();
             if (_tangoPose == null) {
@@ -227,10 +229,11 @@ namespace Sources.Behaviours {
                     return;
 
                 if (_selectedRect.Contains(guiPosition) || _hideAllRect.Contains(guiPosition)) {
+                    
                 }
                 else if (Physics.Raycast(cam.ScreenPointToRay(t.position), out hitInfo)) {
                     var tapped = hitInfo.collider.gameObject;
-                    if (!tapped.GetComponent<Animation>().isPlaying) _selectedMarker = tapped.GetComponent<ARObjectBehaviour>();
+                    _selectedMarker = tapped.GetComponent<ARObjectBehaviour>();
                 }
                 else {
                     _selectedMarker = null;
@@ -269,8 +272,11 @@ namespace Sources.Behaviours {
                 forward = Vector3.Cross(up, cam.transform.right);
             }
 
-            Instantiate(_prefabMarker, planeCenter, Quaternion.LookRotation(forward, up));
-            _selectedMarker = null;
+            if (_objectInstance != null) {
+                _objectInstance.GetComponent<ARObjectBehaviour>().SendMessage("Hide");
+                _selectedMarker = null;
+            }
+            _objectInstance = Instantiate(_prefabMarker, planeCenter, Quaternion.LookRotation(forward, up));
         }
     }
 }
