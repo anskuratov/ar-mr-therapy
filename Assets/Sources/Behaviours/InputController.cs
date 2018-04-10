@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using Tango;
 using UnityEngine;
 
@@ -25,8 +26,6 @@ namespace Sources.Behaviours {
 
         private const string UI_FLOAT_FORMAT = "F3";
         private const string UI_FONT_SIZE = "<size=25>";
-        private const string UX_TANGO_SERVICE_VERSION = "Tango service version: {0}";
-        private const string UX_TARGET_TO_BASE_FRAME = "Target->{0}, Base->{1}:";
         private const string UX_STATUS = "\tstatus: {0}, count: {1}, position (m): [{2}], orientation: [{3}]";
 
         private const float FPS_UPDATE_FREQUENCY = 1.0f;
@@ -42,7 +41,7 @@ namespace Sources.Behaviours {
         private Rect _hideAllRect;
         private Rect _selectedRect;
         
-        private ARMarker _selectedMarker;
+        private ARObjectBehaviour _selectedMarker;
         private TangoApplication _tangoApplication;
         private TangoARPoseController _tangoPose;
 
@@ -50,12 +49,26 @@ namespace Sources.Behaviours {
             _currentFPS = 0;
             _framesSinceUpdate = 0;
             _currentTime = 0.0f;
-            _fpsText = "FPS = Calculating";
-            _tangoApplication = FindObjectOfType<TangoApplication>();
-            _tangoPose = FindObjectOfType<TangoARPoseController>();
-            _tangoServiceVersion = TangoApplication.GetTangoServiceVersion();
+            _fpsText = string.Empty;
 
-            _tangoApplication.Register(this);
+            _tangoPose = FindObjectOfType<TangoARPoseController>();
+            if (_tangoPose == null) {
+                Debug.LogError("InputController: TangoPose is null!");
+            }
+
+            _tangoServiceVersion = TangoApplication.GetTangoServiceVersion();
+            if (_tangoServiceVersion == null) {
+                Debug.LogError("InputController: TangoServiceVersion is null!");
+            }
+
+
+            _tangoApplication = FindObjectOfType<TangoApplication>();
+            if (_tangoApplication == null) {
+                Debug.LogError("InputController: TangoApplication is null!");
+            }
+            else {
+                _tangoApplication.Register(this);   
+            }
         }
 
         private void Update() {
@@ -95,39 +108,11 @@ namespace Sources.Behaviours {
         }
 
         public void OnGUI() {
-//        Rect distortionButtonRec = new Rect(UI_BUTTON_GAP_X,
-//                                            Screen.height - UI_BUTTON_SIZE_Y - UI_BUTTON_GAP_X,
-//                                            UI_BUTTON_SIZE_X,
-//                                            UI_BUTTON_SIZE_Y);
-//        string isOn = m_arCameraPostProcess.enabled ? "Off" : "On";
-//        if (GUI.Button(distortionButtonRec,
-//                       UI_FONT_SIZE + "Turn Distortion " + isOn + "</size>"))
-//        {
-//            m_arCameraPostProcess.enabled = !m_arCameraPostProcess.enabled;
-//        }
-
             if (_showDebug && _tangoApplication.HasRequiredPermissions) {
                 var oldColor = GUI.color;
                 GUI.color = Color.white;
 
                 GUI.color = Color.black;
-                GUI.Label(new Rect(UI_LABEL_START_X,
-                        UI_LABEL_START_Y,
-                        UI_LABEL_SIZE_X,
-                        UI_LABEL_SIZE_Y),
-                    UI_FONT_SIZE + string.Format(UX_TANGO_SERVICE_VERSION, _tangoServiceVersion) + "</size>");
-
-                GUI.Label(new Rect(UI_LABEL_START_X,
-                        UI_FPS_LABEL_START_Y,
-                        UI_LABEL_SIZE_X,
-                        UI_LABEL_SIZE_Y),
-                    UI_FONT_SIZE + _fpsText + "</size>");
-
-                GUI.Label(new Rect(UI_LABEL_START_X,
-                        UI_POSE_LABEL_START_Y - UI_LABEL_OFFSET,
-                        UI_LABEL_SIZE_X,
-                        UI_LABEL_SIZE_Y),
-                    UI_FONT_SIZE + string.Format(UX_TARGET_TO_BASE_FRAME, "Device", "Start") + "</size>");
 
                 var pos = _tangoPose.transform.position;
                 var quat = _tangoPose.transform.rotation;
@@ -172,13 +157,13 @@ namespace Sources.Behaviours {
                 _selectedRect = new Rect();
             }
 
-            if (FindObjectOfType<ARMarker>() != null) {
+            if (FindObjectOfType<ARObjectBehaviour>() != null) {
                 _hideAllRect = new Rect(Screen.width - UI_BUTTON_SIZE_X - UI_BUTTON_GAP_X,
                     Screen.height - UI_BUTTON_SIZE_Y - UI_BUTTON_GAP_X,
                     UI_BUTTON_SIZE_X,
                     UI_BUTTON_SIZE_Y);
                 if (GUI.Button(_hideAllRect, "<size=30>Hide All</size>"))
-                    foreach (var marker in FindObjectsOfType<ARMarker>())
+                    foreach (var marker in FindObjectsOfType<ARObjectBehaviour>())
                         marker.SendMessage("Hide");
             }
             else {
@@ -245,7 +230,7 @@ namespace Sources.Behaviours {
                 }
                 else if (Physics.Raycast(cam.ScreenPointToRay(t.position), out hitInfo)) {
                     var tapped = hitInfo.collider.gameObject;
-                    if (!tapped.GetComponent<Animation>().isPlaying) _selectedMarker = tapped.GetComponent<ARMarker>();
+                    if (!tapped.GetComponent<Animation>().isPlaying) _selectedMarker = tapped.GetComponent<ARObjectBehaviour>();
                 }
                 else {
                     _selectedMarker = null;
@@ -259,15 +244,6 @@ namespace Sources.Behaviours {
                     touchEffectRectTransform.anchorMin = touchEffectRectTransform.anchorMax = normalizedPosition;
                 }
             }
-
-//            if (Input.touchCount == 2) {
-//                var t0 = Input.GetTouch(0);
-//                var t1 = Input.GetTouch(1);    
-//
-//                if (t0.phase != TouchPhase.Began && t1.phase != TouchPhase.Began) return;
-//
-//                _showDebug = !_showDebug;
-//            }
         }
 
         private IEnumerator _WaitForDepthAndFindPlane(Vector2 touchPosition) {
