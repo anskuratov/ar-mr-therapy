@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using Tango;
 using UnityEngine;
 
 namespace Sources.Behaviours {
-    
-    public enum SpawningType {
-        Single,
-        Multiple
-    }
 
     public class InputController : MonoBehaviour, ITangoLifecycle, ITangoDepth {
 
@@ -35,14 +29,8 @@ namespace Sources.Behaviours {
         private const string UI_FONT_SIZE = "<size=25>";
         private const string UX_STATUS = "\tstatus: {0}, count: {1}, position (m): [{2}], orientation: [{3}]";
 
-        private const float FPS_UPDATE_FREQUENCY = 1.0f;
-        private float _accumulation;
-        private float _currentTime;
-        private int _currentFPS;
-        private int _framesSinceUpdate;
         private bool _findPlaneWaitingForDepth;
         private bool _showDebug;
-        private string _fpsText;
         private string _tangoServiceVersion;
 
         private Rect _hideAllRect;
@@ -54,10 +42,6 @@ namespace Sources.Behaviours {
         private GameObject _objectInstance;
 
         private void Start() {
-            _currentFPS = 0;
-            _framesSinceUpdate = 0;
-            _currentTime = 0.0f;
-            _fpsText = string.Empty;
             _objectInstance = null;
 
             _tangoPose = FindObjectOfType<TangoARPoseController>();
@@ -81,16 +65,6 @@ namespace Sources.Behaviours {
         }
 
         private void Update() {
-            _currentTime += Time.deltaTime;
-            ++_framesSinceUpdate;
-            _accumulation += Time.timeScale / Time.deltaTime;
-            if (_currentTime >= FPS_UPDATE_FREQUENCY) {
-                _currentFPS = (int) (_accumulation / _framesSinceUpdate);
-                _currentTime = 0.0f;
-                _framesSinceUpdate = 0;
-                _accumulation = 0.0f;
-                _fpsText = "FPS: " + _currentFPS;
-            }
 
             _UpdateLocationMarker();
 

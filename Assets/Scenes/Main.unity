@@ -117,6 +117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 277448896}
   - component: {fileID: 277448897}
+  - component: {fileID: 277448895}
   m_Layer: 0
   m_Name: InputController
   m_TagString: Untagged
@@ -124,6 +125,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &277448895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 277448894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e709cfd839484b8e4aa7bc9edd2101, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _applicationMode: 0
 --- !u!4 &277448896
 Transform:
   m_ObjectHideFlags: 0
@@ -153,6 +166,7 @@ MonoBehaviour:
   _prefabTouchEffect: {fileID: 22497430, guid: 5a77b678bf7604d5fb4f0b5399e89224, type: 2}
   _pointCloud: {fileID: 1711968357}
   _canvas: {fileID: 694750546}
+  _spawningType: 0
 --- !u!1001 &331246954
 Prefab:
   m_ObjectHideFlags: 0
