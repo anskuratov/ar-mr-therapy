@@ -4,12 +4,19 @@ using Tango;
 using UnityEngine;
 
 namespace Sources.Behaviours {
+    
+    public enum SpawningType {
+        Single,
+        Multiple
+    }
+
     public class InputController : MonoBehaviour, ITangoLifecycle, ITangoDepth {
-        
+
         [SerializeField] private GameObject _prefabMarker;
         [SerializeField] private RectTransform _prefabTouchEffect;
         [SerializeField] private TangoPointCloud _pointCloud;
         [SerializeField] private Canvas _canvas;
+        [SerializeField] private SpawningType _spawningType;
 
         private const float UI_LABEL_START_X = 15.0f;
         private const float UI_LABEL_START_Y = 15.0f;
@@ -40,7 +47,7 @@ namespace Sources.Behaviours {
 
         private Rect _hideAllRect;
         private Rect _selectedRect;
-        
+
         private ARObjectBehaviour _selectedMarker;
         private TangoApplication _tangoApplication;
         private TangoARPoseController _tangoPose;
@@ -69,7 +76,7 @@ namespace Sources.Behaviours {
                 Debug.LogError("InputController: TangoApplication is null!");
             }
             else {
-                _tangoApplication.Register(this);   
+                _tangoApplication.Register(this);
             }
         }
 
@@ -229,7 +236,7 @@ namespace Sources.Behaviours {
                     return;
 
                 if (_selectedRect.Contains(guiPosition) || _hideAllRect.Contains(guiPosition)) {
-                    
+
                 }
                 else if (Physics.Raycast(cam.ScreenPointToRay(t.position), out hitInfo)) {
                     var tapped = hitInfo.collider.gameObject;
@@ -271,12 +278,26 @@ namespace Sources.Behaviours {
             else {
                 forward = Vector3.Cross(up, cam.transform.right);
             }
+            
+            SpawnObject(planeCenter, forward, up);
+        }
 
-            if (_objectInstance != null) {
-                _objectInstance.GetComponent<ARObjectBehaviour>().SendMessage("Hide");
-                _selectedMarker = null;
+        private void SpawnObject(Vector3 planeCenter, Vector3 forward, Vector3 up) {
+            switch (_spawningType) {
+                case SpawningType.Single: {
+                    if (_objectInstance != null) {
+                        _objectInstance.GetComponent<ARObjectBehaviour>().SendMessage("Hide");
+                    }
+                    _objectInstance = Instantiate(_prefabMarker, planeCenter, Quaternion.LookRotation(forward, up));
+                    break;
+                }
+                case SpawningType.Multiple: {
+                    Instantiate(_prefabMarker, planeCenter, Quaternion.LookRotation(forward, up));
+                    break;
+                }
             }
-            _objectInstance = Instantiate(_prefabMarker, planeCenter, Quaternion.LookRotation(forward, up));
+            
+            _selectedMarker = null;
         }
     }
 }
