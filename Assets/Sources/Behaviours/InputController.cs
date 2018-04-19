@@ -6,7 +6,7 @@ namespace Sources.Behaviours {
 
     public class InputController : MonoBehaviour, ITangoLifecycle, ITangoDepth {
 
-        [SerializeField] private GameObject _prefabMarker;
+        [SerializeField] private GameObject _spiderPrefabGameObject;
         [SerializeField] private RectTransform _prefabTouchEffect;
         [SerializeField] private TangoPointCloud _pointCloud;
         [SerializeField] private Canvas _canvas;
@@ -39,10 +39,12 @@ namespace Sources.Behaviours {
         private ARObjectBehaviour _selectedMarker;
         private TangoApplication _tangoApplication;
         private TangoARPoseController _tangoPose;
+        private GameObject _prefabMarker;
         private GameObject _objectInstance;
 
         private void Start() {
             _objectInstance = null;
+            _prefabMarker = _spiderPrefabGameObject;
 
             _tangoPose = FindObjectOfType<TangoARPoseController>();
             if (_tangoPose == null) {
