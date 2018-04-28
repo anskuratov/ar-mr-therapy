@@ -265,7 +265,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &355864124
 Transform:
   m_ObjectHideFlags: 0
@@ -290,7 +290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48b28bcb766b2854b8e58b249f873937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enableCardboard: 0
+  _screenOrientation: 3
 --- !u!1001 &656417102
 Prefab:
   m_ObjectHideFlags: 0
