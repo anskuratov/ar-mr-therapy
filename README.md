@@ -4,13 +4,13 @@
 
 ## Description
 
-  The  developed  MR  system  is  based  on  a  **_Google  Tango_**  smartphone  (Lenovo  Phab  2  Pro). This smartphone is equipped with motion tracking and depth sensors. It allows the systemto integrate depth information in a scene efficiently. The system will reconstruct the surface inthe  scene  including  its  illuminant  condition  and  will  detect  the  ground  plane  of  the  scene  andother planes as well with the support of Tango SDK. Then, a 3D model of a virtual animal willbe added to the reconstructed scene, and the scene with the animal will be rendered using Unitygame  engine.  The  rendered  image  will  be  shown  on  the  screen  of  the  smartphone  so  that  theimage will be seen by an observer using a VR smartphone holder (e.g., Google cardboard). Thesystem will operate this whole process in real time.
+  The developed MR system is based on a **_Google  Tango_** smartphone (Lenovo Phab 2 Pro). This smartphone is equipped with motion tracking and depth sensors. It allows the system to integrate depth information in a scene efficiently. The system will reconstruct the surface in the scene including its illuminant condition and will detect the ground plane of the scene and other planes as well with the support of Tango SDK. Then, a 3D model of a virtual animal will be added to the reconstructed scene, and the scene with the animal will be rendered using Unity game engine. The rendered image will be shown on the screen of the smartphone so that the image will be seen by an observer using a VR smartphone holder (e.g., Google cardboard). The system will operate this whole process in real time.
 
 ### Animals implemented
 
 #### 1. Snake
-  
-  We selected Vipera Nikolskii snake for ophidiophobia (fear of snakes)  study.
+  ![The snake render](https://github.com/AnSkuratov/ar-exp-therapy/blob/master/pic/snake_gh.jpg)
+  We selected [**_Vipera Nikolskii_**](https://en.wikipedia.org/wiki/Vipera_nikolskii) snake for ophidiophobia (fear of snakes) study.
   
   List of animations:
   * idle,
@@ -20,8 +20,9 @@
   !IMAGE
 
 #### 2. Spider
+  ![The spider render](https://github.com/AnSkuratov/ar-exp-therapy/blob/master/pic/spider_gh.jpg)
 
-  Selected spider is an **_Argiope bruennichi_** (wasp spider) female. We chose to use this spider because it is one of the most common spiders in Russia. Recognizing this spider in his habitation area is straightforward. Argiope bruennichi has a verybright wasp-like colour.
+  Selected spider is an [**_Argiope bruennichi_**](https://en.wikipedia.org/wiki/Argiope_bruennichi) (wasp spider) female. We chose to use this spider because it is one of the most common spiders in Russia. Recognizing this spider in his habitation area is straightforward. Argiope bruennichi has a very bright wasp-like colour.
   
   List of animations:
   * idle,
@@ -32,8 +33,9 @@
   !IMAGE
   
 #### 3. Rat
+  ![The rat render](https://github.com/AnSkuratov/ar-exp-therapy/blob/master/pic/rat_gh.jpg)
 
-  We  selected  rat  as  one  of  the  disgusting  and  frequently  faced  animal  inRussia.  For  example,  it  is  possible  to  meet  a  rat  in  the  Moscow  subway,  near  garbage  cans, in  cellars.  Some  people  consider  rats  as  potential  disease  carriers  what  cause  fear  and  phobicavoidance  of  this  animal.
+  We selected rat as one of the disgusting and frequently faced animal in Russia. For example, it is possible to meet a rat in the Moscow subway, near garbage cans, in cellars. Some people consider rats as potential disease carriers what cause fear and phobic avoidance of this animal.
 
   List of animations:
   * idle,
