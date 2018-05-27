@@ -8,9 +8,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/3rdParty/TangoSDK/Examples/Scenes/AugmentedReality.unity
     guid: f1aab0b9b6c394f64b573456134db7ac
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 202ab12e0a74c40409e62aa1970cac28
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainSplit.unity
     guid: 14d8c4a8d2922be4f859194ab594442c
