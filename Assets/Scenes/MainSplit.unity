@@ -451,9 +451,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff31b132d1939784a84ef3c23df4348a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spiderPrefabGameObject: {fileID: 1788765671968512, guid: 485ac22327afae045b486bfff6e63f1e,
+  _spiderPrefabGameObject: {fileID: 1991561707324294, guid: 1c23677ab9a4c514d9b3370bbaf9cdd6,
     type: 2}
-  _prefabTouchEffect: {fileID: 22497430, guid: 5a77b678bf7604d5fb4f0b5399e89224, type: 2}
+  _prefabTouchEffect: {fileID: 0}
   _pointCloud: {fileID: 1084215661}
   _canvas: {fileID: 437483589}
   _spawningType: 0
@@ -777,8 +777,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1779522511}
   m_LocalRotation: {x: -0, y: -0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: 2.6108878, y: -0.8405384, z: -5.948165}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.16, y: -0.8405384, z: -5.948165}
+  m_LocalScale: {x: 1.5, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 39884592}
   m_RootOrder: 2
