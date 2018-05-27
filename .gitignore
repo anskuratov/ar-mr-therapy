@@ -330,13 +330,17 @@ __pycache__/
 # should be stored in the .pubxml.user file.
 
 ### Maya ###
-Resources/*/maya/**
-!Resources/*/maya/*.mb
-!Resources/*/maya/*.ma
-!Resources/*/maya/Assets/**
+Resources/*/maya/*
+!Resources/*/maya/Assets/
+Resources/*/maya/Assets/*
+!Resources/*/maya/Assets/*.fbx
+
+### Textures ###
+Resources/*/textures/*
+!Resources/*/textures/*.png
+!Resources/*/textures/*.jpg
 
 ### Substance Painter 2 ###
-Resources/*/substance-painter/**
-!Resources/*/substance-painter/*.spp
+Resources/*/substance-painter/*
 
 # End of https://www.gitignore.io/api/unity,visualstudio
