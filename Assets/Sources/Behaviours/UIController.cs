@@ -21,7 +21,7 @@ namespace Sources.Behaviours {
 
         private void Update() {
             if (_applicationMode == ApplicationMode.Development) {
-            CountFps();    
+            CountFps();
         }
     }
 
@@ -46,12 +46,12 @@ namespace Sources.Behaviours {
                         UI_LABEL_SIZE_X,
                         UI_LABEL_SIZE_Y),
                     UI_FONT_SIZE + _fpsText + "</size>");
-                
-                var _hideAllRect = new Rect(250.0f, 130.0f, 250.0f, 130.0f);
-                if (GUI.Button(_hideAllRect, "<size=30>Hide All</size>"))
-                    foreach (var marker in FindObjectsOfType<ARObjectBehaviour>())
-                        marker.SendMessage("Hide");
             }
+            
+            var _hideAllRect = new Rect(250.0f, 130.0f, 250.0f, 130.0f);
+            if (GUI.Button(_hideAllRect, "<size=30>Hide All</size>"))
+                foreach (var marker in FindObjectsOfType<ARObjectBehaviour>())
+                    marker.SendMessage("Hide");
         }
     }
 }
