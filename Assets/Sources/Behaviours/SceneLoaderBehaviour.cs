@@ -7,8 +7,8 @@ namespace Sources.Behaviours {
     public class SceneLoaderBehaviour : MonoBehaviour {
 
         [SerializeField] private SceneType _sceneType;
-        
-        private void Awake() {
+
+        private void Start() {
             LoadScene(_sceneType);
         }
         

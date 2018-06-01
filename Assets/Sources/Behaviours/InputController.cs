@@ -6,28 +6,17 @@ namespace Sources.Behaviours {
 
     public class InputController : MonoBehaviour, ITangoLifecycle, ITangoDepth {
 
-        [SerializeField] private GameObject _spiderPrefabGameObject;
         [SerializeField] private RectTransform _prefabTouchEffect;
         [SerializeField] private TangoPointCloud _pointCloud;
         [SerializeField] private Canvas _canvas;
         [SerializeField] private SpawningType _spawningType;
+        [SerializeField] private GameObject[] _prefabsToSpawn; // 1 - spider, 2 - snake, 3 - rat
 
-        private const float UI_LABEL_START_X = 15.0f;
-        private const float UI_LABEL_START_Y = 15.0f;
-        private const float UI_LABEL_SIZE_X = 1920.0f;
-        private const float UI_LABEL_SIZE_Y = 35.0f;
-        private const float UI_LABEL_GAP_Y = 3.0f;
-        private const float UI_BUTTON_SIZE_X = 250.0f;
-        private const float UI_BUTTON_SIZE_Y = 130.0f;
+        private const float UI_BUTTON_SIZE_X = 200.0f;
+        private const float UI_BUTTON_SIZE_Y = 90.0f;
         private const float UI_BUTTON_GAP_X = 5.0f;
-        private const float UI_LABEL_OFFSET = UI_LABEL_GAP_Y + UI_LABEL_SIZE_Y;
-        private const float UI_FPS_LABEL_START_Y = UI_LABEL_START_Y + UI_LABEL_OFFSET;
-        private const float UI_EVENT_LABEL_START_Y = UI_FPS_LABEL_START_Y + UI_LABEL_OFFSET;
-        private const float UI_POSE_LABEL_START_Y = UI_EVENT_LABEL_START_Y + UI_LABEL_OFFSET;
-
-        private const string UI_FLOAT_FORMAT = "F3";
-        private const string UI_FONT_SIZE = "<size=25>";
-        private const string UX_STATUS = "\tstatus: {0}, count: {1}, position (m): [{2}], orientation: [{3}]";
+        private const float UI_BUTTON_GAP_Y = 5.0f;
+        private const float UI_BETWEEN_BUTTON_GAP_X = 200.0f;
 
         private bool _findPlaneWaitingForDepth;
         private bool _showDebug;
@@ -35,8 +24,14 @@ namespace Sources.Behaviours {
 
         private Rect _hideAllRect;
         private Rect _selectedRect;
+        private Rect _splitRect;
+        private Rect _spiderRect;
+        private Rect _snakeRect;
+        private Rect _ratRect;
 
         private ARObjectBehaviour _selectedMarker;
+        private ParametersKeeper _parametersKeeper;
+        private SceneLoaderBehaviour _sceneLoader;
         private TangoApplication _tangoApplication;
         private TangoARPoseController _tangoPose;
         private GameObject _prefabMarker;
@@ -44,8 +39,10 @@ namespace Sources.Behaviours {
 
         private void Start() {
             _objectInstance = null;
-            _prefabMarker = _spiderPrefabGameObject;
 
+            _parametersKeeper = FindObjectOfType<ParametersKeeper>();
+            _sceneLoader = FindObjectOfType<SceneLoaderBehaviour>();
+            
             _tangoPose = FindObjectOfType<TangoARPoseController>();
             if (_tangoPose == null) {
                 Debug.LogError("InputController: TangoPose is null!");
@@ -64,6 +61,9 @@ namespace Sources.Behaviours {
             else {
                 _tangoApplication.Register(this);
             }
+            
+            setupRects();
+            selectCurrentPrefab();
         }
 
         private void Update() {
@@ -92,34 +92,50 @@ namespace Sources.Behaviours {
         public void OnTangoServiceDisconnected() {
         }
 
+        private void setupRects() {
+            _hideAllRect = new Rect(Screen.width - UI_BUTTON_SIZE_X - UI_BUTTON_GAP_X,
+                Screen.height - UI_BUTTON_SIZE_Y - UI_BUTTON_GAP_X,
+                UI_BUTTON_SIZE_X,
+                UI_BUTTON_SIZE_Y);
+
+            _splitRect = new Rect((Screen.width - UI_BUTTON_SIZE_X) / 2,
+                Screen.height - UI_BUTTON_SIZE_Y - UI_BUTTON_GAP_Y,
+                UI_BUTTON_SIZE_X,
+                UI_BUTTON_SIZE_Y);
+            
+            _spiderRect = new Rect((Screen.width - UI_BUTTON_SIZE_X) / 2 - UI_BETWEEN_BUTTON_GAP_X,
+                UI_BUTTON_GAP_Y,
+                UI_BUTTON_SIZE_X,
+                UI_BUTTON_SIZE_Y);
+            
+            _snakeRect = new Rect((Screen.width - UI_BUTTON_SIZE_X) / 2,
+                UI_BUTTON_GAP_Y,
+                UI_BUTTON_SIZE_X,
+                UI_BUTTON_SIZE_Y);
+            
+            _ratRect = new Rect((Screen.width - UI_BUTTON_SIZE_X) / 2 + UI_BETWEEN_BUTTON_GAP_X,
+                UI_BUTTON_GAP_Y,
+                UI_BUTTON_SIZE_X,
+                UI_BUTTON_SIZE_Y);
+        }
+
         public void OnGUI() {
-            if (_showDebug && _tangoApplication.HasRequiredPermissions) {
-                var oldColor = GUI.color;
-                GUI.color = Color.white;
-
-                GUI.color = Color.black;
-
-                var pos = _tangoPose.transform.position;
-                var quat = _tangoPose.transform.rotation;
-                var positionString = pos.x.ToString(UI_FLOAT_FORMAT) + ", " +
-                                     pos.y.ToString(UI_FLOAT_FORMAT) + ", " +
-                                     pos.z.ToString(UI_FLOAT_FORMAT);
-                var rotationString = quat.x.ToString(UI_FLOAT_FORMAT) + ", " +
-                                     quat.y.ToString(UI_FLOAT_FORMAT) + ", " +
-                                     quat.z.ToString(UI_FLOAT_FORMAT) + ", " +
-                                     quat.w.ToString(UI_FLOAT_FORMAT);
-                var statusString = string.Format(UX_STATUS,
-                    _GetLoggingStringFromPoseStatus(_tangoPose.m_poseStatus),
-                    _GetLoggingStringFromFrameCount(_tangoPose.m_poseCount),
-                    positionString, rotationString);
-                GUI.Label(new Rect(UI_LABEL_START_X,
-                        UI_POSE_LABEL_START_Y,
-                        UI_LABEL_SIZE_X,
-                        UI_LABEL_SIZE_Y),
-                    UI_FONT_SIZE + statusString + "</size>");
-                GUI.color = oldColor;
+            if (GUI.Button(_splitRect, "<size=30>Split</size>")) {
+                LoadAnotherScene();
             }
 
+            if (GUI.Button(_spiderRect, "<size=30>Spider</size>")) {
+                _parametersKeeper.currentAnimal = AnimalType.Spider;
+            }
+            
+            if (GUI.Button(_snakeRect, "<size=30>Snake</size>")) {
+                _parametersKeeper.currentAnimal = AnimalType.Snake;
+            }
+
+            if (GUI.Button(_ratRect, "<size=30>Rat</size>")) {
+                _parametersKeeper.currentAnimal = AnimalType.Rat;
+            }
+            
             if (_selectedMarker != null) {
                 var selectedRenderer = _selectedMarker.GetComponent<Renderer>();
 
@@ -143,16 +159,26 @@ namespace Sources.Behaviours {
             }
 
             if (FindObjectOfType<ARObjectBehaviour>() != null) {
-                _hideAllRect = new Rect(Screen.width - UI_BUTTON_SIZE_X - UI_BUTTON_GAP_X,
-                    Screen.height - UI_BUTTON_SIZE_Y - UI_BUTTON_GAP_X,
-                    UI_BUTTON_SIZE_X,
-                    UI_BUTTON_SIZE_Y);
-                if (GUI.Button(_hideAllRect, "<size=30>Hide All</size>"))
+                if (GUI.Button(_hideAllRect, "<size=30>Hide</size>"))
                     foreach (var marker in FindObjectsOfType<ARObjectBehaviour>())
                         marker.SendMessage("Hide");
             }
-            else {
-                _hideAllRect = new Rect(0, 0, 0, 0);
+        }
+
+        private void LoadAnotherScene() {
+            switch (_parametersKeeper.currentScene) {
+                case SceneType.Base: {
+                    _sceneLoader.UnloadScene(SceneType.Base);
+                    _sceneLoader.LoadScene(SceneType.SplitScreen);
+                    _parametersKeeper.currentScene = SceneType.SplitScreen;
+                    break;
+                }
+                case SceneType.SplitScreen: {
+                    _sceneLoader.UnloadScene(SceneType.SplitScreen);
+                    _sceneLoader.LoadScene(SceneType.Base);
+                    _parametersKeeper.currentScene = SceneType.Base;
+                    break;
+                }
             }
         }
 
@@ -211,7 +237,12 @@ namespace Sources.Behaviours {
                 if (t.phase != TouchPhase.Began)
                     return;
 
-                if (_selectedRect.Contains(guiPosition) || _hideAllRect.Contains(guiPosition)) {
+                if (_selectedRect.Contains(guiPosition) 
+                    || _hideAllRect.Contains(guiPosition)
+                    || _splitRect.Contains(guiPosition)
+                    || _spiderRect.Contains(guiPosition)
+                    || _snakeRect.Contains(guiPosition)
+                    || _ratRect.Contains(guiPosition)) {
 
                 }
                 else if (Physics.Raycast(cam.ScreenPointToRay(t.position), out hitInfo)) {
@@ -259,6 +290,8 @@ namespace Sources.Behaviours {
         }
 
         private void SpawnObject(Vector3 planeCenter, Vector3 forward, Vector3 up) {
+            selectCurrentPrefab();
+            
             switch (_spawningType) {
                 case SpawningType.Single: {
                     if (_objectInstance != null) {
@@ -274,6 +307,27 @@ namespace Sources.Behaviours {
             }
             
             _selectedMarker = null;
+        }
+
+        private void selectCurrentPrefab() {
+            if (_parametersKeeper == null) {
+                _prefabMarker = _prefabsToSpawn[0];
+            }
+            
+            switch (_parametersKeeper.currentAnimal) {
+                case AnimalType.Spider: {
+                    _prefabMarker = _prefabsToSpawn[0];
+                    break;
+                }
+                case AnimalType.Snake: {
+                    _prefabMarker = _prefabsToSpawn[1];
+                    break;
+                }
+                case AnimalType.Rat: {
+                    _prefabMarker = _prefabsToSpawn[2];
+                    break;
+                }
+            }
         }
     }
 }
