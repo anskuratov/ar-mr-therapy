@@ -298,6 +298,7 @@ namespace Sources.Behaviours {
                         _objectInstance.GetComponent<ARObjectBehaviour>().SendMessage("Hide");
                     }
                     _objectInstance = Instantiate(_prefabMarker, planeCenter, Quaternion.LookRotation(forward, up));
+                    _objectInstance.transform.Rotate(0f, 180f, 0f);
                     break;
                 }
                 case SpawningType.Multiple: {
