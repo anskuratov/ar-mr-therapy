@@ -12,11 +12,11 @@ namespace Sources.Behaviours {
         [SerializeField] private SpawningType _spawningType;
         [SerializeField] private GameObject[] _prefabsToSpawn; // 1 - spider, 2 - snake, 3 - rat
 
-        private const float UI_BUTTON_SIZE_X = 200.0f;
+        private const float UI_BUTTON_SIZE_X = 250.0f;
         private const float UI_BUTTON_SIZE_Y = 90.0f;
         private const float UI_BUTTON_GAP_X = 5.0f;
-        private const float UI_BUTTON_GAP_Y = 5.0f;
-        private const float UI_BETWEEN_BUTTON_GAP_X = 200.0f;
+        private const float UI_BUTTON_GAP_Y = 0.0f;
+        private const float UI_BETWEEN_BUTTON_GAP_X = 250.0f;
 
         private bool _findPlaneWaitingForDepth;
         private bool _showDebug;
