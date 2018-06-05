@@ -1,0 +1,1494 @@
+fileFormatVersion: 2
+guid: d7da2eb183c1ebc408f021f385d15266
+timeCreated: 1528230911
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: body1
+    100002: body_rig
+    100004: bottom_teeth
+    100006: bottom_teeth_l
+    100008: bottom_teeth_r
+    100010: cluster10Handle
+    100012: cluster11Handle
+    100014: cluster12Handle
+    100016: cluster13Handle
+    100018: cluster9Handle
+    100020: curve1
+    100022: curve2
+    100024: curve3
+    100026: eye_l
+    100028: eye_r
+    100030: head_controller
+    100032: ik_tail
+    100034: ik_tongue
+    100036: ikHandle2
+    100038: ikHandle3
+    100040: ikHandle4
+    100042: ikHandle5
+    100044: ikHandle6
+    100046: joint1
+    100048: joint10
+    100050: joint11
+    100052: joint12
+    100054: joint13
+    100056: joint14
+    100058: joint15
+    100060: joint16
+    100062: joint17
+    100064: joint18
+    100066: joint19
+    100068: joint2
+    100070: joint20
+    100072: joint21
+    100074: joint22
+    100076: joint23
+    100078: joint24
+    100080: joint25
+    100082: joint26
+    100084: joint26 1
+    100086: joint27
+    100088: joint28
+    100090: joint29
+    100092: joint2_2
+    100094: joint30
+    100096: joint30 1
+    100098: joint31
+    100100: joint31 1
+    100102: joint32
+    100104: joint33
+    100106: joint33 1
+    100108: joint34
+    100110: joint34 1
+    100112: joint35
+    100114: joint35 1
+    100116: joint36
+    100118: joint36 1
+    100120: joint37
+    100122: joint37 1
+    100124: joint37 2
+    100126: joint37 3
+    100128: joint37 4
+    100130: joint37 5
+    100132: joint37 6
+    100134: joint37 7
+    100136: joint37 8
+    100138: joint37 9
+    100140: joint38
+    100142: joint38 1
+    100144: joint39
+    100146: joint39 1
+    100148: joint40
+    100150: joint40 1
+    100152: joint41
+    100154: joint41 1
+    100156: joint42
+    100158: joint42 1
+    100160: joint42 2
+    100162: joint42 3
+    100164: joint42 4
+    100166: joint42 5
+    100168: joint42 6
+    100170: joint42 7
+    100172: joint42 8
+    100174: joint42 9
+    100176: joint43
+    100178: joint43 1
+    100180: joint43 2
+    100182: joint43 3
+    100184: joint43 4
+    100186: joint43 5
+    100188: joint43 6
+    100190: joint43 7
+    100192: joint43 8
+    100194: joint43 9
+    100196: joint44
+    100198: joint44 1
+    100200: joint45
+    100202: joint45 1
+    100204: joint46
+    100206: joint46 1
+    100208: joint47
+    100210: joint47 1
+    100212: joint48
+    100214: joint49
+    100216: joint50
+    100218: joint51
+    100220: joint54
+    100222: joint6
+    100224: joint7
+    100226: joint73
+    100228: joint8
+    100230: joint87
+    100232: joint9
+    100234: l_ear_controller
+    100236: mouth_controller
+    100238: nail_b_1
+    100240: nail_b_2
+    100242: nail_b_3
+    100244: nail_b_4
+    100246: nail_b_5
+    100248: nail_f_1
+    100250: nail_f_2
+    100252: nail_f_3
+    100254: nail_f_4
+    100256: nail_f_5
+    100258: nail_l_b_1
+    100260: nail_l_b_2
+    100262: nail_l_b_3
+    100264: nail_l_b_4
+    100266: nail_l_b_5
+    100268: nail_l_f_1
+    100270: nail_l_f_2
+    100272: nail_l_f_3
+    100274: nail_l_f_4
+    100276: nail_l_f_5
+    100278: nail_r_b_1
+    100280: nail_r_b_2
+    100282: nail_r_b_3
+    100284: nail_r_b_4
+    100286: nail_r_b_5
+    100288: nail_r_f_1
+    100290: nail_r_f_2
+    100292: nail_r_f_3
+    100294: nail_r_f_4
+    100296: nail_r_f_5
+    100298: nails
+    100300: nails_b
+    100302: nails_f
+    100304: nose_controller
+    100306: nurbsCircle1
+    100308: nurbsCircle2
+    100310: nurbsCircle3
+    100312: nurbsCircle4
+    100314: r_ear_controller
+    100316: rat
+    100318: rat_body
+    100320: rat_control
+    100322: //RootNode
+    100324: rat_eyes
+    100326: rat_mesh
+    100328: rat_rig
+    100330: root_control
+    100332: root_rig
+    100334: spine_1_controller
+    100336: spine_2_controller
+    100338: spine_3_controller
+    100340: spine_4_controller
+    100342: spine_5_controller
+    100344: spine_6_controller
+    100346: tail_control
+    100348: tial_cluster_1
+    100350: tial_cluster_1_controller
+    100352: tial_cluster_1_group
+    100354: tial_cluster_2
+    100356: tial_cluster_2_controller
+    100358: tial_cluster_2_group
+    100360: tial_cluster_3
+    100362: tial_cluster_3_controller
+    100364: tial_cluster_3_group
+    100366: tial_cluster_4
+    100368: tial_cluster_4_controller
+    100370: tial_cluster_4_group
+    100372: tongue
+    100374: tongue1
+    100376: tongue_cluster_1
+    100378: tongue_cluster_1_group
+    100380: tongue_cluster_2
+    100382: tongue_cluster_2_group
+    100384: tongue_cluster_3
+    100386: tongue_cluster_3_group
+    100388: tongue_cluster_4
+    100390: tongue_cluster_4_group
+    100392: tongue_control
+    100394: tongue_controller_1
+    100396: tongue_controller_2
+    100398: tongue_controller_3
+    100400: tongue_controller_4
+    100402: upper_teeth
+    100404: upper_teeth_l
+    100406: upper_teeth_r
+    400000: body1
+    400002: body_rig
+    400004: bottom_teeth
+    400006: bottom_teeth_l
+    400008: bottom_teeth_r
+    400010: cluster10Handle
+    400012: cluster11Handle
+    400014: cluster12Handle
+    400016: cluster13Handle
+    400018: cluster9Handle
+    400020: curve1
+    400022: curve2
+    400024: curve3
+    400026: eye_l
+    400028: eye_r
+    400030: head_controller
+    400032: ik_tail
+    400034: ik_tongue
+    400036: ikHandle2
+    400038: ikHandle3
+    400040: ikHandle4
+    400042: ikHandle5
+    400044: ikHandle6
+    400046: joint1
+    400048: joint10
+    400050: joint11
+    400052: joint12
+    400054: joint13
+    400056: joint14
+    400058: joint15
+    400060: joint16
+    400062: joint17
+    400064: joint18
+    400066: joint19
+    400068: joint2
+    400070: joint20
+    400072: joint21
+    400074: joint22
+    400076: joint23
+    400078: joint24
+    400080: joint25
+    400082: joint26
+    400084: joint26 1
+    400086: joint27
+    400088: joint28
+    400090: joint29
+    400092: joint2_2
+    400094: joint30
+    400096: joint30 1
+    400098: joint31
+    400100: joint31 1
+    400102: joint32
+    400104: joint33
+    400106: joint33 1
+    400108: joint34
+    400110: joint34 1
+    400112: joint35
+    400114: joint35 1
+    400116: joint36
+    400118: joint36 1
+    400120: joint37
+    400122: joint37 1
+    400124: joint37 2
+    400126: joint37 3
+    400128: joint37 4
+    400130: joint37 5
+    400132: joint37 6
+    400134: joint37 7
+    400136: joint37 8
+    400138: joint37 9
+    400140: joint38
+    400142: joint38 1
+    400144: joint39
+    400146: joint39 1
+    400148: joint40
+    400150: joint40 1
+    400152: joint41
+    400154: joint41 1
+    400156: joint42
+    400158: joint42 1
+    400160: joint42 2
+    400162: joint42 3
+    400164: joint42 4
+    400166: joint42 5
+    400168: joint42 6
+    400170: joint42 7
+    400172: joint42 8
+    400174: joint42 9
+    400176: joint43
+    400178: joint43 1
+    400180: joint43 2
+    400182: joint43 3
+    400184: joint43 4
+    400186: joint43 5
+    400188: joint43 6
+    400190: joint43 7
+    400192: joint43 8
+    400194: joint43 9
+    400196: joint44
+    400198: joint44 1
+    400200: joint45
+    400202: joint45 1
+    400204: joint46
+    400206: joint46 1
+    400208: joint47
+    400210: joint47 1
+    400212: joint48
+    400214: joint49
+    400216: joint50
+    400218: joint51
+    400220: joint54
+    400222: joint6
+    400224: joint7
+    400226: joint73
+    400228: joint8
+    400230: joint87
+    400232: joint9
+    400234: l_ear_controller
+    400236: mouth_controller
+    400238: nail_b_1
+    400240: nail_b_2
+    400242: nail_b_3
+    400244: nail_b_4
+    400246: nail_b_5
+    400248: nail_f_1
+    400250: nail_f_2
+    400252: nail_f_3
+    400254: nail_f_4
+    400256: nail_f_5
+    400258: nail_l_b_1
+    400260: nail_l_b_2
+    400262: nail_l_b_3
+    400264: nail_l_b_4
+    400266: nail_l_b_5
+    400268: nail_l_f_1
+    400270: nail_l_f_2
+    400272: nail_l_f_3
+    400274: nail_l_f_4
+    400276: nail_l_f_5
+    400278: nail_r_b_1
+    400280: nail_r_b_2
+    400282: nail_r_b_3
+    400284: nail_r_b_4
+    400286: nail_r_b_5
+    400288: nail_r_f_1
+    400290: nail_r_f_2
+    400292: nail_r_f_3
+    400294: nail_r_f_4
+    400296: nail_r_f_5
+    400298: nails
+    400300: nails_b
+    400302: nails_f
+    400304: nose_controller
+    400306: nurbsCircle1
+    400308: nurbsCircle2
+    400310: nurbsCircle3
+    400312: nurbsCircle4
+    400314: r_ear_controller
+    400316: rat
+    400318: rat_body
+    400320: rat_control
+    400322: //RootNode
+    400324: rat_eyes
+    400326: rat_mesh
+    400328: rat_rig
+    400330: root_control
+    400332: root_rig
+    400334: spine_1_controller
+    400336: spine_2_controller
+    400338: spine_3_controller
+    400340: spine_4_controller
+    400342: spine_5_controller
+    400344: spine_6_controller
+    400346: tail_control
+    400348: tial_cluster_1
+    400350: tial_cluster_1_controller
+    400352: tial_cluster_1_group
+    400354: tial_cluster_2
+    400356: tial_cluster_2_controller
+    400358: tial_cluster_2_group
+    400360: tial_cluster_3
+    400362: tial_cluster_3_controller
+    400364: tial_cluster_3_group
+    400366: tial_cluster_4
+    400368: tial_cluster_4_controller
+    400370: tial_cluster_4_group
+    400372: tongue
+    400374: tongue1
+    400376: tongue_cluster_1
+    400378: tongue_cluster_1_group
+    400380: tongue_cluster_2
+    400382: tongue_cluster_2_group
+    400384: tongue_cluster_3
+    400386: tongue_cluster_3_group
+    400388: tongue_cluster_4
+    400390: tongue_cluster_4_group
+    400392: tongue_control
+    400394: tongue_controller_1
+    400396: tongue_controller_2
+    400398: tongue_controller_3
+    400400: tongue_controller_4
+    400402: upper_teeth
+    400404: upper_teeth_l
+    400406: upper_teeth_r
+    2300000: bottom_teeth_l
+    2300002: bottom_teeth_r
+    2300004: eye_l
+    2300006: eye_r
+    2300008: nail_l_b_1
+    2300010: nail_l_b_2
+    2300012: nail_l_b_3
+    2300014: nail_l_b_4
+    2300016: nail_l_b_5
+    2300018: nail_l_f_1
+    2300020: nail_l_f_2
+    2300022: nail_l_f_3
+    2300024: nail_l_f_4
+    2300026: nail_l_f_5
+    2300028: nail_r_b_1
+    2300030: nail_r_b_2
+    2300032: nail_r_b_3
+    2300034: nail_r_b_4
+    2300036: nail_r_b_5
+    2300038: nail_r_f_1
+    2300040: nail_r_f_2
+    2300042: nail_r_f_3
+    2300044: nail_r_f_4
+    2300046: nail_r_f_5
+    2300048: upper_teeth_l
+    2300050: upper_teeth_r
+    3300000: bottom_teeth_l
+    3300002: bottom_teeth_r
+    3300004: eye_l
+    3300006: eye_r
+    3300008: nail_l_b_1
+    3300010: nail_l_b_2
+    3300012: nail_l_b_3
+    3300014: nail_l_b_4
+    3300016: nail_l_b_5
+    3300018: nail_l_f_1
+    3300020: nail_l_f_2
+    3300022: nail_l_f_3
+    3300024: nail_l_f_4
+    3300026: nail_l_f_5
+    3300028: nail_r_b_1
+    3300030: nail_r_b_2
+    3300032: nail_r_b_3
+    3300034: nail_r_b_4
+    3300036: nail_r_b_5
+    3300038: nail_r_f_1
+    3300040: nail_r_f_2
+    3300042: nail_r_f_3
+    3300044: nail_r_f_4
+    3300046: nail_r_f_5
+    3300048: upper_teeth_l
+    3300050: upper_teeth_r
+    4300000: eye_r
+    4300002: eye_l
+    4300004: upper_teeth_l
+    4300006: bottom_teeth_l
+    4300008: bottom_teeth_r
+    4300010: upper_teeth_r
+    4300012: nail_r_f_1
+    4300014: nail_l_f_1
+    4300016: nail_r_f_2
+    4300018: nail_l_f_2
+    4300020: nail_r_f_3
+    4300022: nail_l_f_3
+    4300024: nail_r_f_4
+    4300026: nail_l_f_4
+    4300028: nail_r_f_5
+    4300030: nail_l_f_5
+    4300032: nail_r_b_1
+    4300034: nail_l_b_1
+    4300036: nail_r_b_2
+    4300038: nail_l_b_2
+    4300040: nail_r_b_3
+    4300042: nail_l_b_3
+    4300044: nail_r_b_4
+    4300046: nail_l_b_4
+    4300048: nail_r_b_5
+    4300050: nail_l_b_5
+    4300052: tongue1
+    4300054: body1
+    7400000: Take 001
+    7400002: Idle
+    9500000: //RootNode
+    13700000: body1
+    13700002: tongue1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cluster9Handle
+        weight: 1
+      - path: cluster10Handle
+        weight: 1
+      - path: cluster11Handle
+        weight: 1
+      - path: cluster12Handle
+        weight: 1
+      - path: cluster13Handle
+        weight: 1
+      - path: head_controller
+        weight: 1
+      - path: head_controller/bottom_teeth_l
+        weight: 1
+      - path: head_controller/bottom_teeth_r
+        weight: 1
+      - path: head_controller/eye_l
+        weight: 1
+      - path: head_controller/eye_r
+        weight: 1
+      - path: head_controller/l_ear_controller
+        weight: 1
+      - path: head_controller/mouth_controller
+        weight: 1
+      - path: head_controller/nose_controller
+        weight: 1
+      - path: head_controller/r_ear_controller
+        weight: 1
+      - path: head_controller/upper_teeth_l
+        weight: 1
+      - path: head_controller/upper_teeth_r
+        weight: 1
+      - path: ikHandle2
+        weight: 1
+      - path: ikHandle3
+        weight: 1
+      - path: ikHandle4
+        weight: 1
+      - path: ikHandle5
+        weight: 1
+      - path: ikHandle6
+        weight: 1
+      - path: nurbsCircle1
+        weight: 1
+      - path: nurbsCircle2
+        weight: 1
+      - path: nurbsCircle3
+        weight: 1
+      - path: nurbsCircle4
+        weight: 1
+      - path: rat
+        weight: 1
+      - path: rat/rat_control
+        weight: 1
+      - path: rat/rat_control/root_control
+        weight: 1
+      - path: rat/rat_mesh
+        weight: 1
+      - path: rat/rat_mesh/bottom_teeth
+        weight: 1
+      - path: rat/rat_mesh/nails
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_1
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_1/nail_l_b_1
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_1/nail_r_b_1
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_2
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_2/nail_l_b_2
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_2/nail_r_b_2
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_3
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_3/nail_l_b_3
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_3/nail_r_b_3
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_4
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_4/nail_l_b_4
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_4/nail_r_b_4
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_5
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_5/nail_l_b_5
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_5/nail_r_b_5
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_1
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_1/nail_l_f_1
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_1/nail_r_f_1
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_2
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_2/nail_l_f_2
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_2/nail_r_f_2
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_3
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_3/nail_l_f_3
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_3/nail_r_f_3
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_4
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_4/nail_l_f_4
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_4/nail_r_f_4
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_5
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_5/nail_l_f_5
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_5/nail_r_f_5
+        weight: 1
+      - path: rat/rat_mesh/rat_body
+        weight: 1
+      - path: rat/rat_mesh/rat_body/body1
+        weight: 1
+      - path: rat/rat_mesh/rat_eyes
+        weight: 1
+      - path: rat/rat_mesh/tongue
+        weight: 1
+      - path: rat/rat_mesh/tongue/tongue1
+        weight: 1
+      - path: rat/rat_mesh/upper_teeth
+        weight: 1
+      - path: rat/rat_rig
+        weight: 1
+      - path: rat/rat_rig/joint12
+        weight: 1
+      - path: rat/rat_rig/joint12/curve1
+        weight: 1
+      - path: rat/rat_rig/joint12/curve3
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint2_2
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint2_2/joint1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint25
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint25/joint26
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint27
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint27/curve2
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint27/joint28
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint27/joint48
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint27/joint48/joint49
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint27/joint48/joint49/joint50
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint27/joint48/joint49/joint50/joint51
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint54
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint54/joint26
+          1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint35/joint42
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint35/joint42/joint43
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint44
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint44/joint42
+          1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint44/joint42
+          1/joint43 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint45
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint45/joint42
+          2
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint45/joint42
+          2/joint43 2
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint46
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint46/joint42
+          3
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint46/joint42
+          3/joint43 3
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint47
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint47/joint42
+          4
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint47/joint42
+          4/joint43 4
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint35 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint35 1/joint42 5
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint35 1/joint42 5/joint43 5
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint44 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint44 1/joint42 6
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint44 1/joint42 6/joint43 6
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint45 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint45 1/joint42 7
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint45 1/joint42 7/joint43 7
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint46 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint46 1/joint42 8
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint46 1/joint42 8/joint43 8
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint47 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint47 1/joint42 9
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint47 1/joint42 9/joint43 9
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14/joint15
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14/joint15/joint16/joint17
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14/joint15/joint16/joint17/joint18
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14/joint15/joint16/joint17/joint18/joint19
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14/joint15/joint16/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14/joint15/joint16/joint17/joint18/joint19/joint20/joint21
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14/joint15/joint16/joint17/joint18/joint19/joint20/joint21/joint22
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14/joint15/joint16/joint17/joint18/joint19/joint20/joint21/joint22/joint23
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14/joint15/joint16/joint17/joint18/joint19/joint20/joint21/joint22/joint23/joint24
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14/joint15/joint16/joint17/joint18/joint19/joint20/joint21/joint22/joint23/joint24/joint2
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30/joint31
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30/joint31/joint36
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30/joint31/joint36/joint37
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30/joint31/joint38
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30/joint31/joint38/joint37 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30/joint31/joint39
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30/joint31/joint39/joint37 2
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30/joint31/joint40
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30/joint31/joint40/joint37 3
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30/joint31/joint41
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30/joint31/joint41/joint37 4
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1/joint31 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1/joint31 1/joint36 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1/joint31 1/joint36 1/joint37 5
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1/joint31 1/joint38 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1/joint31 1/joint38 1/joint37 6
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1/joint31 1/joint39 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1/joint31 1/joint39 1/joint37 7
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1/joint31 1/joint40 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1/joint31 1/joint40 1/joint37 8
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1/joint31 1/joint41 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1/joint31 1/joint41 1/joint37 9
+        weight: 1
+      - path: spine_1_controller
+        weight: 1
+      - path: spine_2_controller
+        weight: 1
+      - path: spine_3_controller
+        weight: 1
+      - path: spine_4_controller
+        weight: 1
+      - path: spine_5_controller
+        weight: 1
+      - path: spine_6_controller
+        weight: 1
+      - path: tail_control
+        weight: 1
+      - path: tail_control/ik_tail
+        weight: 1
+      - path: tail_control/tial_cluster_1_controller
+        weight: 1
+      - path: tail_control/tial_cluster_1_group
+        weight: 1
+      - path: tail_control/tial_cluster_1_group/tial_cluster_1
+        weight: 1
+      - path: tail_control/tial_cluster_2_controller
+        weight: 1
+      - path: tail_control/tial_cluster_2_group
+        weight: 1
+      - path: tail_control/tial_cluster_2_group/tial_cluster_2
+        weight: 1
+      - path: tail_control/tial_cluster_3_controller
+        weight: 1
+      - path: tail_control/tial_cluster_3_group
+        weight: 1
+      - path: tail_control/tial_cluster_3_group/tial_cluster_3
+        weight: 1
+      - path: tail_control/tial_cluster_4_controller
+        weight: 1
+      - path: tail_control/tial_cluster_4_group
+        weight: 1
+      - path: tail_control/tial_cluster_4_group/tial_cluster_4
+        weight: 1
+      - path: tongue_control
+        weight: 1
+      - path: tongue_control/ik_tongue
+        weight: 1
+      - path: tongue_control/tongue_cluster_1_group
+        weight: 1
+      - path: tongue_control/tongue_cluster_1_group/tongue_cluster_1
+        weight: 1
+      - path: tongue_control/tongue_cluster_2_group
+        weight: 1
+      - path: tongue_control/tongue_cluster_2_group/tongue_cluster_2
+        weight: 1
+      - path: tongue_control/tongue_cluster_3_group
+        weight: 1
+      - path: tongue_control/tongue_cluster_3_group/tongue_cluster_3
+        weight: 1
+      - path: tongue_control/tongue_cluster_4_group
+        weight: 1
+      - path: tongue_control/tongue_cluster_4_group/tongue_cluster_4
+        weight: 1
+      - path: tongue_control/tongue_controller_1
+        weight: 1
+      - path: tongue_control/tongue_controller_2
+        weight: 1
+      - path: tongue_control/tongue_controller_3
+        weight: 1
+      - path: tongue_control/tongue_controller_4
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cluster9Handle
+        weight: 1
+      - path: cluster10Handle
+        weight: 1
+      - path: cluster11Handle
+        weight: 1
+      - path: cluster12Handle
+        weight: 1
+      - path: cluster13Handle
+        weight: 1
+      - path: head_controller
+        weight: 1
+      - path: head_controller/bottom_teeth_l
+        weight: 1
+      - path: head_controller/bottom_teeth_r
+        weight: 1
+      - path: head_controller/eye_l
+        weight: 1
+      - path: head_controller/eye_r
+        weight: 1
+      - path: head_controller/l_ear_controller
+        weight: 1
+      - path: head_controller/mouth_controller
+        weight: 1
+      - path: head_controller/nose_controller
+        weight: 1
+      - path: head_controller/r_ear_controller
+        weight: 1
+      - path: head_controller/upper_teeth_l
+        weight: 1
+      - path: head_controller/upper_teeth_r
+        weight: 1
+      - path: ikHandle2
+        weight: 1
+      - path: ikHandle3
+        weight: 1
+      - path: ikHandle4
+        weight: 1
+      - path: ikHandle5
+        weight: 1
+      - path: ikHandle6
+        weight: 1
+      - path: nurbsCircle1
+        weight: 1
+      - path: nurbsCircle2
+        weight: 1
+      - path: nurbsCircle3
+        weight: 1
+      - path: nurbsCircle4
+        weight: 1
+      - path: rat
+        weight: 1
+      - path: rat/rat_control
+        weight: 1
+      - path: rat/rat_control/root_control
+        weight: 1
+      - path: rat/rat_mesh
+        weight: 1
+      - path: rat/rat_mesh/bottom_teeth
+        weight: 1
+      - path: rat/rat_mesh/nails
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_1
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_1/nail_l_b_1
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_1/nail_r_b_1
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_2
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_2/nail_l_b_2
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_2/nail_r_b_2
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_3
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_3/nail_l_b_3
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_3/nail_r_b_3
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_4
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_4/nail_l_b_4
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_4/nail_r_b_4
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_5
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_5/nail_l_b_5
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_b/nail_b_5/nail_r_b_5
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_1
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_1/nail_l_f_1
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_1/nail_r_f_1
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_2
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_2/nail_l_f_2
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_2/nail_r_f_2
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_3
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_3/nail_l_f_3
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_3/nail_r_f_3
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_4
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_4/nail_l_f_4
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_4/nail_r_f_4
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_5
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_5/nail_l_f_5
+        weight: 1
+      - path: rat/rat_mesh/nails/nails_f/nail_f_5/nail_r_f_5
+        weight: 1
+      - path: rat/rat_mesh/rat_body
+        weight: 1
+      - path: rat/rat_mesh/rat_body/body1
+        weight: 1
+      - path: rat/rat_mesh/rat_eyes
+        weight: 1
+      - path: rat/rat_mesh/tongue
+        weight: 1
+      - path: rat/rat_mesh/tongue/tongue1
+        weight: 1
+      - path: rat/rat_mesh/upper_teeth
+        weight: 1
+      - path: rat/rat_rig
+        weight: 1
+      - path: rat/rat_rig/joint12
+        weight: 1
+      - path: rat/rat_rig/joint12/curve1
+        weight: 1
+      - path: rat/rat_rig/joint12/curve3
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint2_2
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint2_2/joint1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint25
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint25/joint26
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint27
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint27/curve2
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint27/joint28
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint27/joint48
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint27/joint48/joint49
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint27/joint48/joint49/joint50
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint27/joint48/joint49/joint50/joint51
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint54
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint6/body_rig/root_rig/joint54/joint26
+          1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint35/joint42
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint35/joint42/joint43
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint44
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint44/joint42
+          1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint44/joint42
+          1/joint43 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint45
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint45/joint42
+          2
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint45/joint42
+          2/joint43 2
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint46
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint46/joint42
+          3
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint46/joint42
+          3/joint43 3
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint47
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint47/joint42
+          4
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint32/joint33/joint34/joint47/joint42
+          4/joint43 4
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint35 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint35 1/joint42 5
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint35 1/joint42 5/joint43 5
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint44 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint44 1/joint42 6
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint44 1/joint42 6/joint43 6
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint45 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint45 1/joint42 7
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint45 1/joint42 7/joint43 7
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint46 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint46 1/joint42 8
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint46 1/joint42 8/joint43 8
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint47 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint47 1/joint42 9
+        weight: 1
+      - path: rat/rat_rig/joint12/joint11/joint10/joint9/joint8/joint7/joint73/joint33
+          1/joint34 1/joint47 1/joint42 9/joint43 9
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14/joint15
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14/joint15/joint16/joint17
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14/joint15/joint16/joint17/joint18
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14/joint15/joint16/joint17/joint18/joint19
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14/joint15/joint16/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14/joint15/joint16/joint17/joint18/joint19/joint20/joint21
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14/joint15/joint16/joint17/joint18/joint19/joint20/joint21/joint22
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14/joint15/joint16/joint17/joint18/joint19/joint20/joint21/joint22/joint23
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14/joint15/joint16/joint17/joint18/joint19/joint20/joint21/joint22/joint23/joint24
+        weight: 1
+      - path: rat/rat_rig/joint12/joint13/joint14/joint15/joint16/joint17/joint18/joint19/joint20/joint21/joint22/joint23/joint24/joint2
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30/joint31
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30/joint31/joint36
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30/joint31/joint36/joint37
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30/joint31/joint38
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30/joint31/joint38/joint37 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30/joint31/joint39
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30/joint31/joint39/joint37 2
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30/joint31/joint40
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30/joint31/joint40/joint37 3
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30/joint31/joint41
+        weight: 1
+      - path: rat/rat_rig/joint12/joint29/joint30/joint31/joint41/joint37 4
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1/joint31 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1/joint31 1/joint36 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1/joint31 1/joint36 1/joint37 5
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1/joint31 1/joint38 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1/joint31 1/joint38 1/joint37 6
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1/joint31 1/joint39 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1/joint31 1/joint39 1/joint37 7
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1/joint31 1/joint40 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1/joint31 1/joint40 1/joint37 8
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1/joint31 1/joint41 1
+        weight: 1
+      - path: rat/rat_rig/joint12/joint87/joint30 1/joint31 1/joint41 1/joint37 9
+        weight: 1
+      - path: spine_1_controller
+        weight: 1
+      - path: spine_2_controller
+        weight: 1
+      - path: spine_3_controller
+        weight: 1
+      - path: spine_4_controller
+        weight: 1
+      - path: spine_5_controller
+        weight: 1
+      - path: spine_6_controller
+        weight: 1
+      - path: tail_control
+        weight: 1
+      - path: tail_control/ik_tail
+        weight: 1
+      - path: tail_control/tial_cluster_1_controller
+        weight: 1
+      - path: tail_control/tial_cluster_1_group
+        weight: 1
+      - path: tail_control/tial_cluster_1_group/tial_cluster_1
+        weight: 1
+      - path: tail_control/tial_cluster_2_controller
+        weight: 1
+      - path: tail_control/tial_cluster_2_group
+        weight: 1
+      - path: tail_control/tial_cluster_2_group/tial_cluster_2
+        weight: 1
+      - path: tail_control/tial_cluster_3_controller
+        weight: 1
+      - path: tail_control/tial_cluster_3_group
+        weight: 1
+      - path: tail_control/tial_cluster_3_group/tial_cluster_3
+        weight: 1
+      - path: tail_control/tial_cluster_4_controller
+        weight: 1
+      - path: tail_control/tial_cluster_4_group
+        weight: 1
+      - path: tail_control/tial_cluster_4_group/tial_cluster_4
+        weight: 1
+      - path: tongue_control
+        weight: 1
+      - path: tongue_control/ik_tongue
+        weight: 1
+      - path: tongue_control/tongue_cluster_1_group
+        weight: 1
+      - path: tongue_control/tongue_cluster_1_group/tongue_cluster_1
+        weight: 1
+      - path: tongue_control/tongue_cluster_2_group
+        weight: 1
+      - path: tongue_control/tongue_cluster_2_group/tongue_cluster_2
+        weight: 1
+      - path: tongue_control/tongue_cluster_3_group
+        weight: 1
+      - path: tongue_control/tongue_cluster_3_group/tongue_cluster_3
+        weight: 1
+      - path: tongue_control/tongue_cluster_4_group
+        weight: 1
+      - path: tongue_control/tongue_cluster_4_group/tongue_cluster_4
+        weight: 1
+      - path: tongue_control/tongue_controller_1
+        weight: 1
+      - path: tongue_control/tongue_controller_2
+        weight: 1
+      - path: tongue_control/tongue_controller_3
+        weight: 1
+      - path: tongue_control/tongue_controller_4
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

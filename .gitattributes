@@ -4,3 +4,4 @@ Resources/*/maya/Assets/*.fbx filter=lfs diff=lfs merge=lfs -text
 Resources/*/substance-painter/*.spp filter=lfs diff=lfs merge=lfs -text
 Resources/*/textures/*.png filter=lfs diff=lfs merge=lfs -text
 Resources/*/textures/*.jpg filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
