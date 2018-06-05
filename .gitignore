@@ -339,6 +339,10 @@ Resources/*/maya/Assets/*
 Resources/*/textures/*
 !Resources/*/textures/*.png
 !Resources/*/textures/*.jpg
+!Resources/*/textures/combine/
+Resources/*/textures/combine/*
+!Resources/*/textures/combine/*.png
+!Resources/*/textures/combine/*.jpg
 
 ### Substance Painter 2 ###
 Resources/*/substance-painter/*
