@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 49f93ac032f117948adbb2268cf298e2
-timeCreated: 1528230910
+guid: 1cefdac22331a7a4b8f0abe3e62bf690
+timeCreated: 1530071764
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -125,28 +125,29 @@ ModelImporter:
     100234: r_head_upper
     100236: r_head_upper_1
     100238: r_head_upper_2
-    100240: sn_body_model
-    100242: //RootNode
-    100244: snake_mesh
-    100246: snake_rig
-    100248: tongue
-    100250: tongue01
-    100252: tongue02
-    100254: tongue03
-    100256: tongue04
-    100258: tongue05
-    100260: tongue06
-    100262: tongue07
-    100264: tongue08
-    100266: tongue_controller
-    100268: tongue_controller 1
-    100270: tongue_controllers
-    100272: tongue_curve
-    100274: tongue_IK
-    100276: tongue_IK 1
-    100278: tongue_mesh
-    100280: tongue_model
-    100282: tongue_rig
+    100240: root
+    100242: sn_body_model
+    100244: //RootNode
+    100246: snake_mesh
+    100248: snake_rig
+    100250: tongue
+    100252: tongue01
+    100254: tongue02
+    100256: tongue03
+    100258: tongue04
+    100260: tongue05
+    100262: tongue06
+    100264: tongue07
+    100266: tongue08
+    100268: tongue_controller
+    100270: tongue_controller 1
+    100272: tongue_controllers
+    100274: tongue_curve
+    100276: tongue_IK
+    100278: tongue_IK 1
+    100280: tongue_mesh
+    100282: tongue_model
+    100284: tongue_rig
     400000: _root
     400002: _root1
     400004: _root10
@@ -267,30 +268,29 @@ ModelImporter:
     400234: r_head_upper
     400236: r_head_upper_1
     400238: r_head_upper_2
-    400240: sn_body_model
-    400242: //RootNode
-    400244: snake_mesh
-    400246: snake_rig
-    400248: tongue
-    400250: tongue01
-    400252: tongue02
-    400254: tongue03
-    400256: tongue04
-    400258: tongue05
-    400260: tongue06
-    400262: tongue07
-    400264: tongue08
-    400266: tongue_controller
-    400268: tongue_controller 1
-    400270: tongue_controllers
-    400272: tongue_curve
-    400274: tongue_IK
-    400276: tongue_IK 1
-    400278: tongue_mesh
-    400280: tongue_model
-    400282: tongue_rig
-    2300000: tongue
-    3300000: tongue
+    400240: root
+    400242: sn_body_model
+    400244: //RootNode
+    400246: snake_mesh
+    400248: snake_rig
+    400250: tongue
+    400252: tongue01
+    400254: tongue02
+    400256: tongue03
+    400258: tongue04
+    400260: tongue05
+    400262: tongue06
+    400264: tongue07
+    400266: tongue08
+    400268: tongue_controller
+    400270: tongue_controller 1
+    400272: tongue_controllers
+    400274: tongue_curve
+    400276: tongue_IK
+    400278: tongue_IK 1
+    400280: tongue_mesh
+    400282: tongue_model
+    400284: tongue_rig
     4300000: r_eye
     4300002: l_eye
     4300004: body
@@ -301,6 +301,7 @@ ModelImporter:
     13700000: body
     13700002: l_eye
     13700004: r_eye
+    13700006: tongue
   materials:
     importMaterials: 1
     materialName: 0
@@ -328,7 +329,7 @@ ModelImporter:
       name: Take 001
       takeName: Take 001
       firstFrame: 0
-      lastFrame: 542
+      lastFrame: 332
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -545,79 +546,81 @@ ModelImporter:
         weight: 1
       - path: sn_body_model/snake_rig
         weight: 1
-      - path: sn_body_model/snake_rig/_root
+      - path: sn_body_model/snake_rig/root
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1
+      - path: sn_body_model/snake_rig/root/_root
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2
+      - path: sn_body_model/snake_rig/root/_root/_root1
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22/_root23
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22/_root23/end
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22/_root23
         weight: 1
-      - path: sn_body_model/snake_rig/_root/l_head_lower
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22/_root23/end
         weight: 1
-      - path: sn_body_model/snake_rig/_root/l_head_lower/l_head_lowel_1
+      - path: sn_body_model/snake_rig/root/_root/l_head_lower
         weight: 1
-      - path: sn_body_model/snake_rig/_root/l_head_upper
+      - path: sn_body_model/snake_rig/root/_root/l_head_lower/l_head_lowel_1
         weight: 1
-      - path: sn_body_model/snake_rig/_root/l_head_upper/joint1
+      - path: sn_body_model/snake_rig/root/_root/l_head_upper
         weight: 1
-      - path: sn_body_model/snake_rig/_root/l_head_upper/l_head_uppel_1
+      - path: sn_body_model/snake_rig/root/_root/l_head_upper/joint1
         weight: 1
-      - path: sn_body_model/snake_rig/_root/l_head_upper/l_head_uppel_1/l_head_uppel_2
+      - path: sn_body_model/snake_rig/root/_root/l_head_upper/l_head_uppel_1
         weight: 1
-      - path: sn_body_model/snake_rig/_root/r_head_lower
+      - path: sn_body_model/snake_rig/root/_root/l_head_upper/l_head_uppel_1/l_head_uppel_2
         weight: 1
-      - path: sn_body_model/snake_rig/_root/r_head_lower/r_head_lower_1
+      - path: sn_body_model/snake_rig/root/_root/r_head_lower
         weight: 1
-      - path: sn_body_model/snake_rig/_root/r_head_upper
+      - path: sn_body_model/snake_rig/root/_root/r_head_lower/r_head_lower_1
         weight: 1
-      - path: sn_body_model/snake_rig/_root/r_head_upper/joint1 1
+      - path: sn_body_model/snake_rig/root/_root/r_head_upper
         weight: 1
-      - path: sn_body_model/snake_rig/_root/r_head_upper/r_head_upper_1
+      - path: sn_body_model/snake_rig/root/_root/r_head_upper/joint1 1
         weight: 1
-      - path: sn_body_model/snake_rig/_root/r_head_upper/r_head_upper_1/r_head_upper_2
+      - path: sn_body_model/snake_rig/root/_root/r_head_upper/r_head_upper_1
+        weight: 1
+      - path: sn_body_model/snake_rig/root/_root/r_head_upper/r_head_upper_1/r_head_upper_2
         weight: 1
       - path: tongue_model
         weight: 1
@@ -657,8 +660,8 @@ ModelImporter:
     - serializedVersion: 16
       name: snake_idle
       takeName: Take 001
-      firstFrame: 154
-      lastFrame: 274
+      firstFrame: 155
+      lastFrame: 292
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -666,7 +669,7 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 1
+      loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -875,79 +878,81 @@ ModelImporter:
         weight: 1
       - path: sn_body_model/snake_rig
         weight: 1
-      - path: sn_body_model/snake_rig/_root
+      - path: sn_body_model/snake_rig/root
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1
+      - path: sn_body_model/snake_rig/root/_root
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2
+      - path: sn_body_model/snake_rig/root/_root/_root1
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22/_root23
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22
         weight: 1
-      - path: sn_body_model/snake_rig/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22/_root23/end
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22/_root23
         weight: 1
-      - path: sn_body_model/snake_rig/_root/l_head_lower
+      - path: sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22/_root23/end
         weight: 1
-      - path: sn_body_model/snake_rig/_root/l_head_lower/l_head_lowel_1
+      - path: sn_body_model/snake_rig/root/_root/l_head_lower
         weight: 1
-      - path: sn_body_model/snake_rig/_root/l_head_upper
+      - path: sn_body_model/snake_rig/root/_root/l_head_lower/l_head_lowel_1
         weight: 1
-      - path: sn_body_model/snake_rig/_root/l_head_upper/joint1
+      - path: sn_body_model/snake_rig/root/_root/l_head_upper
         weight: 1
-      - path: sn_body_model/snake_rig/_root/l_head_upper/l_head_uppel_1
+      - path: sn_body_model/snake_rig/root/_root/l_head_upper/joint1
         weight: 1
-      - path: sn_body_model/snake_rig/_root/l_head_upper/l_head_uppel_1/l_head_uppel_2
+      - path: sn_body_model/snake_rig/root/_root/l_head_upper/l_head_uppel_1
         weight: 1
-      - path: sn_body_model/snake_rig/_root/r_head_lower
+      - path: sn_body_model/snake_rig/root/_root/l_head_upper/l_head_uppel_1/l_head_uppel_2
         weight: 1
-      - path: sn_body_model/snake_rig/_root/r_head_lower/r_head_lower_1
+      - path: sn_body_model/snake_rig/root/_root/r_head_lower
         weight: 1
-      - path: sn_body_model/snake_rig/_root/r_head_upper
+      - path: sn_body_model/snake_rig/root/_root/r_head_lower/r_head_lower_1
         weight: 1
-      - path: sn_body_model/snake_rig/_root/r_head_upper/joint1 1
+      - path: sn_body_model/snake_rig/root/_root/r_head_upper
         weight: 1
-      - path: sn_body_model/snake_rig/_root/r_head_upper/r_head_upper_1
+      - path: sn_body_model/snake_rig/root/_root/r_head_upper/joint1 1
         weight: 1
-      - path: sn_body_model/snake_rig/_root/r_head_upper/r_head_upper_1/r_head_upper_2
+      - path: sn_body_model/snake_rig/root/_root/r_head_upper/r_head_upper_1
+        weight: 1
+      - path: sn_body_model/snake_rig/root/_root/r_head_upper/r_head_upper_1/r_head_upper_2
         weight: 1
       - path: tongue_model
         weight: 1
