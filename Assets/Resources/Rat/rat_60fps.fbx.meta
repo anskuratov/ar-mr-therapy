@@ -1,0 +1,575 @@
+fileFormatVersion: 2
+guid: a8107dce210f1b348a2581746df12c09
+timeCreated: 1537331414
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: anim_clip_relocator
+    100002: arrowlong_l_ear
+    100004: arrowlong_r_ear
+    100006: arrowlong_U_head
+    100008: back_joint
+    100010: binded_mesh
+    100012: body
+    100014: body_mesh
+    100016: bottom_teeth
+    100018: bottom_teeth_mesh
+    100020: cluster10Handle
+    100022: cluster11Handle
+    100024: cluster12Handle
+    100026: cluster1Handle
+    100028: cluster2Handle
+    100030: cluster3Handle
+    100032: cluster4Handle
+    100034: cluster9Handle
+    100036: controllers
+    100038: ear_1_l_joint
+    100040: ear_1_r_joint
+    100042: ear_2_l_joint
+    100044: ear_2_r_joint
+    100046: eye_l_joint
+    100048: eye_l_mesh
+    100050: eye_r_joint
+    100052: eye_r_mesh
+    100054: eyelid_b_l_controller
+    100056: eyelid_b_l_joint
+    100058: eyelid_b_r_controller
+    100060: eyelid_b_r_joint
+    100062: eyelid_u_l_controller
+    100064: eyelid_u_l_joint
+    100066: eyelid_u_r_controller
+    100068: eyelid_u_r_joint
+    100070: eyes
+    100072: face_controller
+    100074: face_hard_arrow1
+    100076: finger_b_10_l_joint
+    100078: finger_b_10_r_joint
+    100080: finger_b_11_l_joint
+    100082: finger_b_11_r_joint
+    100084: finger_b_1_l_joint
+    100086: finger_b_1_r_joint
+    100088: finger_b_20_l_joint
+    100090: finger_b_20_r_joint
+    100092: finger_b_21_l_joint
+    100094: finger_b_21_r_joint
+    100096: finger_b_2_l_joint
+    100098: finger_b_2_r_joint
+    100100: finger_b_30_l_joint
+    100102: finger_b_30_r_joint
+    100104: finger_b_31_l_joint
+    100106: finger_b_31_r_joint
+    100108: finger_b_3_l_joint
+    100110: finger_b_3_r_joint
+    100112: finger_b_40_l_joint
+    100114: finger_b_40_r_joint
+    100116: finger_b_41_l_joint
+    100118: finger_b_41_r_joint
+    100120: finger_b_4_l_joint
+    100122: finger_b_4_r_joint
+    100124: finger_b_50_l_joint
+    100126: finger_b_50_r_joint
+    100128: finger_b_51_l_joint
+    100130: finger_b_51_r_joint
+    100132: finger_b_5_l_joint
+    100134: finger_b_5_r_joint
+    100136: finger_f_10_l_joint
+    100138: finger_f_10_r_joint
+    100140: finger_f_11_l_joint
+    100142: finger_f_11_r_joint
+    100144: finger_f_1_l_joint
+    100146: finger_f_1_r_joint
+    100148: finger_f_20_l_joint
+    100150: finger_f_20_r_joint
+    100152: finger_f_21_l_joint
+    100154: finger_f_21_r_joint
+    100156: finger_f_2_l_joint
+    100158: finger_f_2_r_joint
+    100160: finger_f_30_l_joint
+    100162: finger_f_30_r_joint
+    100164: finger_f_31_l_joint
+    100166: finger_f_31_r_joint
+    100168: finger_f_3_l_joint
+    100170: finger_f_3_r_joint
+    100172: finger_f_40_l_joint
+    100174: finger_f_40_r_joint
+    100176: finger_f_41_l_joint
+    100178: finger_f_41_r_joint
+    100180: finger_f_4_l_joint
+    100182: finger_f_4_r_joint
+    100184: HEAD
+    100186: head_joint
+    100188: ik_b_l_leg
+    100190: ik_b_l_leg_controller
+    100192: ik_b_l_leg_pole_vector
+    100194: ik_b_r_leg
+    100196: ik_b_r_leg_controller
+    100198: ik_b_r_leg_pole_vector
+    100200: ik_f_l_leg
+    100202: ik_f_l_leg_controller
+    100204: ik_f_l_leg_pole_vector
+    100206: ik_f_r_leg
+    100208: ik_f_r_leg_controller
+    100210: ik_f_r_leg_pole_vector
+    100212: ik_spine
+    100214: ik_spine_curve
+    100216: ik_tie
+    100218: ik_tie_curve
+    100220: ik_tongue
+    100222: ik_tongue_curve
+    100224: leg_b_l_controller
+    100226: leg_b_r_controller
+    100228: leg_f_1_l_joint
+    100230: leg_f_1_l_joint 1
+    100232: leg_f_1_r_joint
+    100234: leg_f_1_r_joint 1
+    100236: leg_f_2_l_joint
+    100238: leg_f_2_l_joint 1
+    100240: leg_f_2_r_joint
+    100242: leg_f_2_r_joint 1
+    100244: leg_f_3_l_joint
+    100246: leg_f_3_l_joint 1
+    100248: leg_f_3_r_joint
+    100250: leg_f_3_r_joint 1
+    100252: leg_f_4_l_joint
+    100254: leg_f_4_r_joint
+    100256: leg_f_l_controller
+    100258: leg_f_r_controller
+    100260: legs
+    100262: lower_head_joint
+    100264: mouth_joint
+    100266: nail_l_b
+    100268: nail_l_b_1_mesh
+    100270: nail_l_b_1_mesh 1
+    100272: nail_l_b_2_mesh
+    100274: nail_l_b_2_mesh 1
+    100276: nail_l_b_3_mesh
+    100278: nail_l_b_3_mesh 1
+    100280: nail_l_b_4_mesh
+    100282: nail_l_b_4_mesh 1
+    100284: nail_l_b_5_mesh
+    100286: nail_l_b_5_mesh 1
+    100288: nail_l_f
+    100290: nail_r_b
+    100292: nail_r_f
+    100294: nail_r_f_1_mesh
+    100296: nail_r_f_1_mesh 1
+    100298: nail_r_f_2_mesh
+    100300: nail_r_f_2_mesh 1
+    100302: nail_r_f_3_mesh
+    100304: nail_r_f_3_mesh 1
+    100306: nail_r_f_4_mesh
+    100308: nail_r_f_4_mesh 1
+    100310: nails
+    100312: nose1_joint
+    100314: nose2_joint
+    100316: rat
+    100318: //RootNode
+    100320: rat_ik
+    100322: rat_mesh
+    100324: rat_model
+    100326: rat_rig
+    100328: root_axis_joint
+    100330: root_cntrlr
+    100332: spine
+    100334: spine 1
+    100336: spine1_joint
+    100338: spine2_joint
+    100340: spine3_joint
+    100342: spine4_joint
+    100344: spine_1_controller
+    100346: spine_2_controller
+    100348: spine_3_controller
+    100350: spine_root_controller
+    100352: tail_00_joint
+    100354: tail_01_joint
+    100356: tail_02_joint
+    100358: tail_03_joint
+    100360: tail_04_joint
+    100362: tail_05_joint
+    100364: tail_06_joint
+    100366: tail_07_joint
+    100368: tail_08_joint
+    100370: tail_09_joint
+    100372: tail_10_joint
+    100374: tail_11_joint
+    100376: tail_12_joint
+    100378: tail_13_joint
+    100380: tail_14_joint
+    100382: tail_15_joint
+    100384: tail_16_joint
+    100386: tail_17_joint
+    100388: tail_18_joint
+    100390: tail_19_joint
+    100392: tail_20_joint
+    100394: TIE
+    100396: tie
+    100398: tie_1_controller
+    100400: tie_2_controller
+    100402: tie_3_controller
+    100404: tie_4_controller
+    100406: tong_joint
+    100408: tongue
+    100410: tongue 1
+    100412: tongue_1_controller
+    100414: tongue_2_controller
+    100416: tongue_3_controller
+    100418: tongue_4_controller
+    100420: tongue_cluster_1
+    100422: tongue_cluster_2
+    100424: tongue_cluster_3
+    100426: tongue_cluster_4
+    100428: tongue_controller
+    100430: tongue_joint
+    100432: tongue_joint1
+    100434: tongue_joint2
+    100436: tongue_joint3
+    100438: tongue_joint4
+    100440: tongue_mesh
+    100442: upper_head_joint
+    100444: upper_teeth
+    100446: upper_teeth_mesh
+    400000: anim_clip_relocator
+    400002: arrowlong_l_ear
+    400004: arrowlong_r_ear
+    400006: arrowlong_U_head
+    400008: back_joint
+    400010: binded_mesh
+    400012: body
+    400014: body_mesh
+    400016: bottom_teeth
+    400018: bottom_teeth_mesh
+    400020: cluster10Handle
+    400022: cluster11Handle
+    400024: cluster12Handle
+    400026: cluster1Handle
+    400028: cluster2Handle
+    400030: cluster3Handle
+    400032: cluster4Handle
+    400034: cluster9Handle
+    400036: controllers
+    400038: ear_1_l_joint
+    400040: ear_1_r_joint
+    400042: ear_2_l_joint
+    400044: ear_2_r_joint
+    400046: eye_l_joint
+    400048: eye_l_mesh
+    400050: eye_r_joint
+    400052: eye_r_mesh
+    400054: eyelid_b_l_controller
+    400056: eyelid_b_l_joint
+    400058: eyelid_b_r_controller
+    400060: eyelid_b_r_joint
+    400062: eyelid_u_l_controller
+    400064: eyelid_u_l_joint
+    400066: eyelid_u_r_controller
+    400068: eyelid_u_r_joint
+    400070: eyes
+    400072: face_controller
+    400074: face_hard_arrow1
+    400076: finger_b_10_l_joint
+    400078: finger_b_10_r_joint
+    400080: finger_b_11_l_joint
+    400082: finger_b_11_r_joint
+    400084: finger_b_1_l_joint
+    400086: finger_b_1_r_joint
+    400088: finger_b_20_l_joint
+    400090: finger_b_20_r_joint
+    400092: finger_b_21_l_joint
+    400094: finger_b_21_r_joint
+    400096: finger_b_2_l_joint
+    400098: finger_b_2_r_joint
+    400100: finger_b_30_l_joint
+    400102: finger_b_30_r_joint
+    400104: finger_b_31_l_joint
+    400106: finger_b_31_r_joint
+    400108: finger_b_3_l_joint
+    400110: finger_b_3_r_joint
+    400112: finger_b_40_l_joint
+    400114: finger_b_40_r_joint
+    400116: finger_b_41_l_joint
+    400118: finger_b_41_r_joint
+    400120: finger_b_4_l_joint
+    400122: finger_b_4_r_joint
+    400124: finger_b_50_l_joint
+    400126: finger_b_50_r_joint
+    400128: finger_b_51_l_joint
+    400130: finger_b_51_r_joint
+    400132: finger_b_5_l_joint
+    400134: finger_b_5_r_joint
+    400136: finger_f_10_l_joint
+    400138: finger_f_10_r_joint
+    400140: finger_f_11_l_joint
+    400142: finger_f_11_r_joint
+    400144: finger_f_1_l_joint
+    400146: finger_f_1_r_joint
+    400148: finger_f_20_l_joint
+    400150: finger_f_20_r_joint
+    400152: finger_f_21_l_joint
+    400154: finger_f_21_r_joint
+    400156: finger_f_2_l_joint
+    400158: finger_f_2_r_joint
+    400160: finger_f_30_l_joint
+    400162: finger_f_30_r_joint
+    400164: finger_f_31_l_joint
+    400166: finger_f_31_r_joint
+    400168: finger_f_3_l_joint
+    400170: finger_f_3_r_joint
+    400172: finger_f_40_l_joint
+    400174: finger_f_40_r_joint
+    400176: finger_f_41_l_joint
+    400178: finger_f_41_r_joint
+    400180: finger_f_4_l_joint
+    400182: finger_f_4_r_joint
+    400184: HEAD
+    400186: head_joint
+    400188: ik_b_l_leg
+    400190: ik_b_l_leg_controller
+    400192: ik_b_l_leg_pole_vector
+    400194: ik_b_r_leg
+    400196: ik_b_r_leg_controller
+    400198: ik_b_r_leg_pole_vector
+    400200: ik_f_l_leg
+    400202: ik_f_l_leg_controller
+    400204: ik_f_l_leg_pole_vector
+    400206: ik_f_r_leg
+    400208: ik_f_r_leg_controller
+    400210: ik_f_r_leg_pole_vector
+    400212: ik_spine
+    400214: ik_spine_curve
+    400216: ik_tie
+    400218: ik_tie_curve
+    400220: ik_tongue
+    400222: ik_tongue_curve
+    400224: leg_b_l_controller
+    400226: leg_b_r_controller
+    400228: leg_f_1_l_joint
+    400230: leg_f_1_l_joint 1
+    400232: leg_f_1_r_joint
+    400234: leg_f_1_r_joint 1
+    400236: leg_f_2_l_joint
+    400238: leg_f_2_l_joint 1
+    400240: leg_f_2_r_joint
+    400242: leg_f_2_r_joint 1
+    400244: leg_f_3_l_joint
+    400246: leg_f_3_l_joint 1
+    400248: leg_f_3_r_joint
+    400250: leg_f_3_r_joint 1
+    400252: leg_f_4_l_joint
+    400254: leg_f_4_r_joint
+    400256: leg_f_l_controller
+    400258: leg_f_r_controller
+    400260: legs
+    400262: lower_head_joint
+    400264: mouth_joint
+    400266: nail_l_b
+    400268: nail_l_b_1_mesh
+    400270: nail_l_b_1_mesh 1
+    400272: nail_l_b_2_mesh
+    400274: nail_l_b_2_mesh 1
+    400276: nail_l_b_3_mesh
+    400278: nail_l_b_3_mesh 1
+    400280: nail_l_b_4_mesh
+    400282: nail_l_b_4_mesh 1
+    400284: nail_l_b_5_mesh
+    400286: nail_l_b_5_mesh 1
+    400288: nail_l_f
+    400290: nail_r_b
+    400292: nail_r_f
+    400294: nail_r_f_1_mesh
+    400296: nail_r_f_1_mesh 1
+    400298: nail_r_f_2_mesh
+    400300: nail_r_f_2_mesh 1
+    400302: nail_r_f_3_mesh
+    400304: nail_r_f_3_mesh 1
+    400306: nail_r_f_4_mesh
+    400308: nail_r_f_4_mesh 1
+    400310: nails
+    400312: nose1_joint
+    400314: nose2_joint
+    400316: rat
+    400318: //RootNode
+    400320: rat_ik
+    400322: rat_mesh
+    400324: rat_model
+    400326: rat_rig
+    400328: root_axis_joint
+    400330: root_cntrlr
+    400332: spine
+    400334: spine 1
+    400336: spine1_joint
+    400338: spine2_joint
+    400340: spine3_joint
+    400342: spine4_joint
+    400344: spine_1_controller
+    400346: spine_2_controller
+    400348: spine_3_controller
+    400350: spine_root_controller
+    400352: tail_00_joint
+    400354: tail_01_joint
+    400356: tail_02_joint
+    400358: tail_03_joint
+    400360: tail_04_joint
+    400362: tail_05_joint
+    400364: tail_06_joint
+    400366: tail_07_joint
+    400368: tail_08_joint
+    400370: tail_09_joint
+    400372: tail_10_joint
+    400374: tail_11_joint
+    400376: tail_12_joint
+    400378: tail_13_joint
+    400380: tail_14_joint
+    400382: tail_15_joint
+    400384: tail_16_joint
+    400386: tail_17_joint
+    400388: tail_18_joint
+    400390: tail_19_joint
+    400392: tail_20_joint
+    400394: TIE
+    400396: tie
+    400398: tie_1_controller
+    400400: tie_2_controller
+    400402: tie_3_controller
+    400404: tie_4_controller
+    400406: tong_joint
+    400408: tongue
+    400410: tongue 1
+    400412: tongue_1_controller
+    400414: tongue_2_controller
+    400416: tongue_3_controller
+    400418: tongue_4_controller
+    400420: tongue_cluster_1
+    400422: tongue_cluster_2
+    400424: tongue_cluster_3
+    400426: tongue_cluster_4
+    400428: tongue_controller
+    400430: tongue_joint
+    400432: tongue_joint1
+    400434: tongue_joint2
+    400436: tongue_joint3
+    400438: tongue_joint4
+    400440: tongue_mesh
+    400442: upper_head_joint
+    400444: upper_teeth
+    400446: upper_teeth_mesh
+    4300000: body_mesh
+    4300002: tongue_mesh
+    4300004: eye_r_mesh
+    4300006: eye_l_mesh
+    4300008: upper_teeth_mesh
+    4300010: bottom_teeth_mesh
+    4300012: nail_r_f_4_mesh
+    4300014: nail_r_f_3_mesh
+    4300016: nail_r_f_2_mesh
+    4300018: nail_r_f_1_mesh
+    4300020: nail_l_b_1_mesh
+    4300022: nail_l_b_2_mesh
+    4300024: nail_l_b_3_mesh
+    4300026: nail_l_b_4_mesh
+    4300028: nail_l_b_5_mesh
+    4300030: nail_l_b_1_mesh
+    4300032: nail_l_b_2_mesh
+    4300034: nail_l_b_3_mesh
+    4300036: nail_l_b_4_mesh
+    4300038: nail_l_b_5_mesh
+    4300040: nail_r_f_4_mesh
+    4300042: nail_r_f_3_mesh
+    4300044: nail_r_f_2_mesh
+    4300046: nail_r_f_1_mesh
+    7400000: v001
+    9500000: //RootNode
+    13700000: body_mesh
+    13700002: bottom_teeth_mesh
+    13700004: eye_l_mesh
+    13700006: eye_r_mesh
+    13700008: nail_l_b_1_mesh
+    13700010: nail_l_b_1_mesh 1
+    13700012: nail_l_b_2_mesh
+    13700014: nail_l_b_2_mesh 1
+    13700016: nail_l_b_3_mesh
+    13700018: nail_l_b_3_mesh 1
+    13700020: nail_l_b_4_mesh
+    13700022: nail_l_b_4_mesh 1
+    13700024: nail_l_b_5_mesh
+    13700026: nail_l_b_5_mesh 1
+    13700028: nail_r_f_1_mesh
+    13700030: nail_r_f_1_mesh 1
+    13700032: nail_r_f_2_mesh
+    13700034: nail_r_f_2_mesh 1
+    13700036: nail_r_f_3_mesh
+    13700038: nail_r_f_3_mesh 1
+    13700040: nail_r_f_4_mesh
+    13700042: nail_r_f_4_mesh 1
+    13700044: tongue_mesh
+    13700046: upper_teeth_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
