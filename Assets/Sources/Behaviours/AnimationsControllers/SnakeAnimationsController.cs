@@ -4,6 +4,7 @@ namespace Sources.Behaviours.AnimationsControllers {
     public class SnakeAnimationsController : MonoBehaviour {
         [SerializeField] private Transform _lookingAnchor;
         [SerializeField] private Animator _animator;
+        [SerializeField] private AudioSource _idleAudioSource;
         
         private bool _isMoving;
         private const float _moveSpeed = 0.004f;
@@ -22,11 +23,13 @@ namespace Sources.Behaviours.AnimationsControllers {
         public void StartMove() {
             _animator.SetBool("Move", true);
             _isMoving = true;
+            _idleAudioSource.Stop();
         }
 
         public void EndMove() {
             _animator.SetBool("Move", false);
             _isMoving = false;
+            _idleAudioSource.Play();
         }
     }
 }
