@@ -3,14 +3,6 @@
 namespace Sources.Behaviours {
 	public class ARObjectBehaviour : MonoBehaviour {
 
-		private void Start () {
-		
-		}
-
-		private void Update () {
-		
-		}
-
 		private void Hide() {
 			DestroySelf();
 		}
