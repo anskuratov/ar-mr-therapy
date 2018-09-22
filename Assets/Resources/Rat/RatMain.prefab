@@ -4302,7 +4302,7 @@ Transform:
   m_GameObject: {fileID: 1357303291253318}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.402, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.08, y: 0.08, z: 0.1}
   m_Children:
   - {fileID: 4964307739084706}
   - {fileID: 4066985442246434}
@@ -6694,10 +6694,10 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 16ce874703f99ae4fbdd5e7749912efa, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -6870,7 +6870,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _lookingAnchor: {fileID: 4964307739084706}
   _animator: {fileID: 95269088307525072}
-  _idleAudioSource: {fileID: 82120910465965606}
+  _hesitatingAudioSource: {fileID: 82120910465965606}
 --- !u!114 &114967298810623248
 MonoBehaviour:
   m_ObjectHideFlags: 1

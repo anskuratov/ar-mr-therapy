@@ -480,6 +480,7 @@ ModelImporter:
     7400000: v001
     7400002: rat_idle
     7400004: rat_move
+    7400006: rat_hesitating
     9500000: //RootNode
     13700000: body_mesh
     13700002: bottom_teeth_mesh
@@ -521,7 +522,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 0
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -1047,7 +1048,7 @@ ModelImporter:
       name: rat_idle
       takeName: v001
       firstFrame: 0
-      lastFrame: 370
+      lastFrame: 180
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -2073,19 +2074,534 @@ ModelImporter:
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rat_hesitating
+      takeName: v001
+      firstFrame: 180
+      lastFrame: 360
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: anim_clip_relocator
+        weight: 1
+      - path: rat
+        weight: 1
+      - path: rat/controllers
+        weight: 1
+      - path: rat/controllers/root_cntrlr
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_ik
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_ik/legs
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_ik/legs/ik_b_l_leg
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_ik/legs/ik_b_r_leg
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_ik/legs/ik_f_l_leg
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_ik/legs/ik_f_r_leg
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_ik/spine 1
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_ik/spine 1/ik_spine
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_ik/spine 1/ik_spine_curve
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_ik/tie
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_ik/tie/ik_tie
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_ik/tie/ik_tie_curve
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_ik/tongue
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_ik/tongue/ik_tongue
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_ik/tongue/ik_tongue_curve
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/body
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/body/body_mesh
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/bottom_teeth
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/bottom_teeth/bottom_teeth_mesh
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/eyes
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/eyes/eye_l_mesh
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/eyes/eye_r_mesh
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails/nail_l_b
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails/nail_l_b/nail_l_b_1_mesh
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails/nail_l_b/nail_l_b_2_mesh
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails/nail_l_b/nail_l_b_3_mesh
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails/nail_l_b/nail_l_b_4_mesh
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails/nail_l_b/nail_l_b_5_mesh
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails/nail_l_f
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails/nail_l_f/nail_r_f_1_mesh
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails/nail_l_f/nail_r_f_2_mesh
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails/nail_l_f/nail_r_f_3_mesh
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails/nail_l_f/nail_r_f_4_mesh
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails/nail_r_b
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails/nail_r_b/nail_l_b_1_mesh
+          1
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails/nail_r_b/nail_l_b_2_mesh
+          1
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails/nail_r_b/nail_l_b_3_mesh
+          1
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails/nail_r_b/nail_l_b_4_mesh
+          1
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails/nail_r_b/nail_l_b_5_mesh
+          1
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails/nail_r_f
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails/nail_r_f/nail_r_f_1_mesh
+          1
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails/nail_r_f/nail_r_f_2_mesh
+          1
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails/nail_r_f/nail_r_f_3_mesh
+          1
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/nails/nail_r_f/nail_r_f_4_mesh
+          1
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/tongue 1
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/tongue 1/tongue_mesh
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/upper_teeth
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_mesh/binded_mesh/upper_teeth/upper_teeth_mesh
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_l_joint/leg_f_2_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_l_joint/leg_f_2_l_joint/leg_f_3_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_l_joint/leg_f_2_l_joint/leg_f_3_l_joint/leg_f_4_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_l_joint/leg_f_2_l_joint/leg_f_3_l_joint/leg_f_4_l_joint/finger_b_1_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_l_joint/leg_f_2_l_joint/leg_f_3_l_joint/leg_f_4_l_joint/finger_b_1_l_joint/finger_b_10_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_l_joint/leg_f_2_l_joint/leg_f_3_l_joint/leg_f_4_l_joint/finger_b_1_l_joint/finger_b_10_l_joint/finger_b_11_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_l_joint/leg_f_2_l_joint/leg_f_3_l_joint/leg_f_4_l_joint/finger_b_2_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_l_joint/leg_f_2_l_joint/leg_f_3_l_joint/leg_f_4_l_joint/finger_b_2_l_joint/finger_b_20_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_l_joint/leg_f_2_l_joint/leg_f_3_l_joint/leg_f_4_l_joint/finger_b_2_l_joint/finger_b_20_l_joint/finger_b_21_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_l_joint/leg_f_2_l_joint/leg_f_3_l_joint/leg_f_4_l_joint/finger_b_3_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_l_joint/leg_f_2_l_joint/leg_f_3_l_joint/leg_f_4_l_joint/finger_b_3_l_joint/finger_b_30_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_l_joint/leg_f_2_l_joint/leg_f_3_l_joint/leg_f_4_l_joint/finger_b_3_l_joint/finger_b_30_l_joint/finger_b_31_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_l_joint/leg_f_2_l_joint/leg_f_3_l_joint/leg_f_4_l_joint/finger_b_4_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_l_joint/leg_f_2_l_joint/leg_f_3_l_joint/leg_f_4_l_joint/finger_b_4_l_joint/finger_b_40_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_l_joint/leg_f_2_l_joint/leg_f_3_l_joint/leg_f_4_l_joint/finger_b_4_l_joint/finger_b_40_l_joint/finger_b_41_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_l_joint/leg_f_2_l_joint/leg_f_3_l_joint/leg_f_4_l_joint/finger_b_5_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_l_joint/leg_f_2_l_joint/leg_f_3_l_joint/leg_f_4_l_joint/finger_b_5_l_joint/finger_b_50_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_l_joint/leg_f_2_l_joint/leg_f_3_l_joint/leg_f_4_l_joint/finger_b_5_l_joint/finger_b_50_l_joint/finger_b_51_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_r_joint/leg_f_2_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_r_joint/leg_f_2_r_joint/leg_f_3_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_r_joint/leg_f_2_r_joint/leg_f_3_r_joint/leg_f_4_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_r_joint/leg_f_2_r_joint/leg_f_3_r_joint/leg_f_4_r_joint/finger_b_1_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_r_joint/leg_f_2_r_joint/leg_f_3_r_joint/leg_f_4_r_joint/finger_b_1_r_joint/finger_b_10_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_r_joint/leg_f_2_r_joint/leg_f_3_r_joint/leg_f_4_r_joint/finger_b_1_r_joint/finger_b_10_r_joint/finger_b_11_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_r_joint/leg_f_2_r_joint/leg_f_3_r_joint/leg_f_4_r_joint/finger_b_2_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_r_joint/leg_f_2_r_joint/leg_f_3_r_joint/leg_f_4_r_joint/finger_b_2_r_joint/finger_b_20_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_r_joint/leg_f_2_r_joint/leg_f_3_r_joint/leg_f_4_r_joint/finger_b_2_r_joint/finger_b_20_r_joint/finger_b_21_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_r_joint/leg_f_2_r_joint/leg_f_3_r_joint/leg_f_4_r_joint/finger_b_3_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_r_joint/leg_f_2_r_joint/leg_f_3_r_joint/leg_f_4_r_joint/finger_b_3_r_joint/finger_b_30_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_r_joint/leg_f_2_r_joint/leg_f_3_r_joint/leg_f_4_r_joint/finger_b_3_r_joint/finger_b_30_r_joint/finger_b_31_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_r_joint/leg_f_2_r_joint/leg_f_3_r_joint/leg_f_4_r_joint/finger_b_4_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_r_joint/leg_f_2_r_joint/leg_f_3_r_joint/leg_f_4_r_joint/finger_b_4_r_joint/finger_b_40_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_r_joint/leg_f_2_r_joint/leg_f_3_r_joint/leg_f_4_r_joint/finger_b_4_r_joint/finger_b_40_r_joint/finger_b_41_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_r_joint/leg_f_2_r_joint/leg_f_3_r_joint/leg_f_4_r_joint/finger_b_5_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_r_joint/leg_f_2_r_joint/leg_f_3_r_joint/leg_f_4_r_joint/finger_b_5_r_joint/finger_b_50_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/leg_f_1_r_joint/leg_f_2_r_joint/leg_f_3_r_joint/leg_f_4_r_joint/finger_b_5_r_joint/finger_b_50_r_joint/finger_b_51_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/head_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/head_joint/lower_head_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/head_joint/lower_head_joint/mouth_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/head_joint/lower_head_joint/tongue_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/head_joint/lower_head_joint/tongue_joint/tongue_joint1
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/head_joint/lower_head_joint/tongue_joint/tongue_joint1/tongue_joint2
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/head_joint/lower_head_joint/tongue_joint/tongue_joint1/tongue_joint2/tongue_joint3
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/head_joint/lower_head_joint/tongue_joint/tongue_joint1/tongue_joint2/tongue_joint3/tongue_joint4
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/head_joint/lower_head_joint/tongue_joint/tongue_joint1/tongue_joint2/tongue_joint3/tongue_joint4/tong_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/head_joint/upper_head_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/head_joint/upper_head_joint/ear_1_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/head_joint/upper_head_joint/ear_1_l_joint/ear_2_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/head_joint/upper_head_joint/ear_1_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/head_joint/upper_head_joint/ear_1_r_joint/ear_2_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/head_joint/upper_head_joint/nose1_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/head_joint/upper_head_joint/nose1_joint/eye_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/head_joint/upper_head_joint/nose1_joint/eye_l_joint/eyelid_b_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/head_joint/upper_head_joint/nose1_joint/eye_l_joint/eyelid_u_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/head_joint/upper_head_joint/nose1_joint/eye_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/head_joint/upper_head_joint/nose1_joint/eye_r_joint/eyelid_b_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/head_joint/upper_head_joint/nose1_joint/eye_r_joint/eyelid_u_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/head_joint/upper_head_joint/nose1_joint/nose2_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_l_joint
+          1
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_l_joint
+          1/leg_f_2_l_joint 1
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_l_joint
+          1/leg_f_2_l_joint 1/leg_f_3_l_joint 1
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_l_joint
+          1/leg_f_2_l_joint 1/leg_f_3_l_joint 1/finger_f_1_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_l_joint
+          1/leg_f_2_l_joint 1/leg_f_3_l_joint 1/finger_f_1_l_joint/finger_f_10_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_l_joint
+          1/leg_f_2_l_joint 1/leg_f_3_l_joint 1/finger_f_1_l_joint/finger_f_10_l_joint/finger_f_11_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_l_joint
+          1/leg_f_2_l_joint 1/leg_f_3_l_joint 1/finger_f_2_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_l_joint
+          1/leg_f_2_l_joint 1/leg_f_3_l_joint 1/finger_f_2_l_joint/finger_f_20_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_l_joint
+          1/leg_f_2_l_joint 1/leg_f_3_l_joint 1/finger_f_2_l_joint/finger_f_20_l_joint/finger_f_21_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_l_joint
+          1/leg_f_2_l_joint 1/leg_f_3_l_joint 1/finger_f_3_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_l_joint
+          1/leg_f_2_l_joint 1/leg_f_3_l_joint 1/finger_f_3_l_joint/finger_f_30_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_l_joint
+          1/leg_f_2_l_joint 1/leg_f_3_l_joint 1/finger_f_3_l_joint/finger_f_30_l_joint/finger_f_31_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_l_joint
+          1/leg_f_2_l_joint 1/leg_f_3_l_joint 1/finger_f_4_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_l_joint
+          1/leg_f_2_l_joint 1/leg_f_3_l_joint 1/finger_f_4_l_joint/finger_f_40_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_l_joint
+          1/leg_f_2_l_joint 1/leg_f_3_l_joint 1/finger_f_4_l_joint/finger_f_40_l_joint/finger_f_41_l_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_r_joint
+          1
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_r_joint
+          1/leg_f_2_r_joint 1
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_r_joint
+          1/leg_f_2_r_joint 1/leg_f_3_r_joint 1
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_r_joint
+          1/leg_f_2_r_joint 1/leg_f_3_r_joint 1/finger_f_1_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_r_joint
+          1/leg_f_2_r_joint 1/leg_f_3_r_joint 1/finger_f_1_r_joint/finger_f_10_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_r_joint
+          1/leg_f_2_r_joint 1/leg_f_3_r_joint 1/finger_f_1_r_joint/finger_f_10_r_joint/finger_f_11_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_r_joint
+          1/leg_f_2_r_joint 1/leg_f_3_r_joint 1/finger_f_2_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_r_joint
+          1/leg_f_2_r_joint 1/leg_f_3_r_joint 1/finger_f_2_r_joint/finger_f_20_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_r_joint
+          1/leg_f_2_r_joint 1/leg_f_3_r_joint 1/finger_f_2_r_joint/finger_f_20_r_joint/finger_f_21_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_r_joint
+          1/leg_f_2_r_joint 1/leg_f_3_r_joint 1/finger_f_3_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_r_joint
+          1/leg_f_2_r_joint 1/leg_f_3_r_joint 1/finger_f_3_r_joint/finger_f_30_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_r_joint
+          1/leg_f_2_r_joint 1/leg_f_3_r_joint 1/finger_f_3_r_joint/finger_f_30_r_joint/finger_f_31_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_r_joint
+          1/leg_f_2_r_joint 1/leg_f_3_r_joint 1/finger_f_4_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_r_joint
+          1/leg_f_2_r_joint 1/leg_f_3_r_joint 1/finger_f_4_r_joint/finger_f_40_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/spine1_joint/spine2_joint/spine3_joint/spine4_joint/leg_f_1_r_joint
+          1/leg_f_2_r_joint 1/leg_f_3_r_joint 1/finger_f_4_r_joint/finger_f_40_r_joint/finger_f_41_r_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/tail_00_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/tail_00_joint/tail_01_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/tail_00_joint/tail_01_joint/tail_02_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/tail_00_joint/tail_01_joint/tail_02_joint/tail_03_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/tail_00_joint/tail_01_joint/tail_02_joint/tail_03_joint/tail_04_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/tail_00_joint/tail_01_joint/tail_02_joint/tail_03_joint/tail_04_joint/tail_05_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/tail_00_joint/tail_01_joint/tail_02_joint/tail_03_joint/tail_04_joint/tail_05_joint/tail_06_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/tail_00_joint/tail_01_joint/tail_02_joint/tail_03_joint/tail_04_joint/tail_05_joint/tail_06_joint/tail_07_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/tail_00_joint/tail_01_joint/tail_02_joint/tail_03_joint/tail_04_joint/tail_05_joint/tail_06_joint/tail_07_joint/tail_08_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/tail_00_joint/tail_01_joint/tail_02_joint/tail_03_joint/tail_04_joint/tail_05_joint/tail_06_joint/tail_07_joint/tail_08_joint/tail_09_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/tail_00_joint/tail_01_joint/tail_02_joint/tail_03_joint/tail_04_joint/tail_05_joint/tail_06_joint/tail_07_joint/tail_08_joint/tail_09_joint/tail_10_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/tail_00_joint/tail_01_joint/tail_02_joint/tail_03_joint/tail_04_joint/tail_05_joint/tail_06_joint/tail_07_joint/tail_08_joint/tail_09_joint/tail_10_joint/tail_11_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/tail_00_joint/tail_01_joint/tail_02_joint/tail_03_joint/tail_04_joint/tail_05_joint/tail_06_joint/tail_07_joint/tail_08_joint/tail_09_joint/tail_10_joint/tail_11_joint/tail_12_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/tail_00_joint/tail_01_joint/tail_02_joint/tail_03_joint/tail_04_joint/tail_05_joint/tail_06_joint/tail_07_joint/tail_08_joint/tail_09_joint/tail_10_joint/tail_11_joint/tail_12_joint/tail_13_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/tail_00_joint/tail_01_joint/tail_02_joint/tail_03_joint/tail_04_joint/tail_05_joint/tail_06_joint/tail_07_joint/tail_08_joint/tail_09_joint/tail_10_joint/tail_11_joint/tail_12_joint/tail_13_joint/tail_14_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/tail_00_joint/tail_01_joint/tail_02_joint/tail_03_joint/tail_04_joint/tail_05_joint/tail_06_joint/tail_07_joint/tail_08_joint/tail_09_joint/tail_10_joint/tail_11_joint/tail_12_joint/tail_13_joint/tail_14_joint/tail_15_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/tail_00_joint/tail_01_joint/tail_02_joint/tail_03_joint/tail_04_joint/tail_05_joint/tail_06_joint/tail_07_joint/tail_08_joint/tail_09_joint/tail_10_joint/tail_11_joint/tail_12_joint/tail_13_joint/tail_14_joint/tail_15_joint/tail_16_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/tail_00_joint/tail_01_joint/tail_02_joint/tail_03_joint/tail_04_joint/tail_05_joint/tail_06_joint/tail_07_joint/tail_08_joint/tail_09_joint/tail_10_joint/tail_11_joint/tail_12_joint/tail_13_joint/tail_14_joint/tail_15_joint/tail_16_joint/tail_17_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/tail_00_joint/tail_01_joint/tail_02_joint/tail_03_joint/tail_04_joint/tail_05_joint/tail_06_joint/tail_07_joint/tail_08_joint/tail_09_joint/tail_10_joint/tail_11_joint/tail_12_joint/tail_13_joint/tail_14_joint/tail_15_joint/tail_16_joint/tail_17_joint/tail_18_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/tail_00_joint/tail_01_joint/tail_02_joint/tail_03_joint/tail_04_joint/tail_05_joint/tail_06_joint/tail_07_joint/tail_08_joint/tail_09_joint/tail_10_joint/tail_11_joint/tail_12_joint/tail_13_joint/tail_14_joint/tail_15_joint/tail_16_joint/tail_17_joint/tail_18_joint/tail_19_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/rat_model/rat_rig/root_axis_joint/back_joint/tail_00_joint/tail_01_joint/tail_02_joint/tail_03_joint/tail_04_joint/tail_05_joint/tail_06_joint/tail_07_joint/tail_08_joint/tail_09_joint/tail_10_joint/tail_11_joint/tail_12_joint/tail_13_joint/tail_14_joint/tail_15_joint/tail_16_joint/tail_17_joint/tail_18_joint/tail_19_joint/tail_20_joint
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/leg_b_l_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/leg_b_r_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/leg_f_l_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/leg_f_r_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/cluster9Handle
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/cluster10Handle
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/cluster11Handle
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/cluster12Handle
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/face_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/face_controller/arrowlong_l_ear
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/face_controller/arrowlong_r_ear
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/face_controller/arrowlong_U_head
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/face_controller/arrowlong_U_head/tongue_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/face_controller/arrowlong_U_head/tongue_controller/tongue_1_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/face_controller/arrowlong_U_head/tongue_controller/tongue_1_controller/tongue_cluster_1
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/face_controller/arrowlong_U_head/tongue_controller/tongue_2_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/face_controller/arrowlong_U_head/tongue_controller/tongue_2_controller/tongue_cluster_2
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/face_controller/arrowlong_U_head/tongue_controller/tongue_3_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/face_controller/arrowlong_U_head/tongue_controller/tongue_3_controller/tongue_cluster_3
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/face_controller/arrowlong_U_head/tongue_controller/tongue_4_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/face_controller/arrowlong_U_head/tongue_controller/tongue_4_controller/tongue_cluster_4
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/face_controller/eyelid_b_l_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/face_controller/eyelid_b_r_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/face_controller/eyelid_u_l_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/face_controller/eyelid_u_r_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/face_controller/face_hard_arrow1
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/ik_f_l_leg_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/ik_f_l_leg_controller/ik_f_l_leg_pole_vector
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/ik_f_r_leg_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/HEAD/spine_1_controller/spine_2_controller/spine_3_controller/ik_f_r_leg_controller/ik_f_r_leg_pole_vector
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/ik_b_l_leg_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/ik_b_l_leg_controller/ik_b_l_leg_pole_vector
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/ik_b_r_leg_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/ik_b_r_leg_controller/ik_b_r_leg_pole_vector
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/TIE
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/TIE/tie_1_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/TIE/tie_1_controller/cluster1Handle
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/TIE/tie_2_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/TIE/tie_2_controller/cluster2Handle
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/TIE/tie_3_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/TIE/tie_3_controller/cluster3Handle
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/TIE/tie_4_controller
+        weight: 1
+      - path: rat/controllers/root_cntrlr/spine/spine_root_controller/TIE/tie_4_controller/cluster4Handle
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    importBlendShapes: 1
+    importBlendShapes: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
+    optimizeMeshForGPU: 0
     keepQuads: 0
-    weldVertices: 1
+    weldVertices: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
