@@ -1,0 +1,1799 @@
+fileFormatVersion: 2
+guid: f4fbf90b6e8992549aeb44319e8c6435
+timeCreated: 1537336002
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: _root
+    100002: _root1
+    100004: _root10
+    100006: _root11
+    100008: _root12
+    100010: _root13
+    100012: _root14
+    100014: _root15
+    100016: _root16
+    100018: _root17
+    100020: _root18
+    100022: _root19
+    100024: _root2
+    100026: _root20
+    100028: _root21
+    100030: _root22
+    100032: _root23
+    100034: _root3
+    100036: _root4
+    100038: _root5
+    100040: _root6
+    100042: _root7
+    100044: _root8
+    100046: _root9
+    100048: body
+    100050: body_controller
+    100052: body_controller 1
+    100054: body_IK
+    100056: body_IK 1
+    100058: cluster10Handle
+    100060: cluster11Handle
+    100062: cluster12Handle
+    100064: cluster13Handle
+    100066: cluster14Handle
+    100068: cluster15Handle
+    100070: cluster16Handle
+    100072: cluster17Handle
+    100074: cluster18Handle
+    100076: cluster19Handle
+    100078: cluster1Handle
+    100080: cluster20Handle
+    100082: cluster21Handle
+    100084: cluster22Handle
+    100086: cluster23Handle
+    100088: cluster24Handle
+    100090: cluster25Handle
+    100092: cluster2Handle
+    100094: cluster3Handle
+    100096: cluster4Handle
+    100098: cluster5Handle
+    100100: cluster6Handle
+    100102: cluster7Handle
+    100104: cluster8Handle
+    100106: cluster9Handle
+    100108: cluster_tongue01
+    100110: cluster_tongue02
+    100112: cluster_tongue03
+    100114: cluster_tongue04
+    100116: cluster_tongue05
+    100118: cluster_tongue06
+    100120: cluster_tongue07
+    100122: cluster_tongue08
+    100124: curve_body
+    100126: curve_body 1
+    100128: end
+    100130: eyes
+    100132: ikHandle_body
+    100134: ikHandle_body 1
+    100136: joint1
+    100138: joint1 1
+    100140: joint2
+    100142: joint3
+    100144: joint3_2
+    100146: joint4
+    100148: joint5
+    100150: joint6
+    100152: joint7
+    100154: joint8
+    100156: l_eye
+    100158: l_head_lowel_1
+    100160: l_head_lower
+    100162: l_head_uppel_1
+    100164: l_head_uppel_2
+    100166: l_head_upper
+    100168: nurbsCircle1
+    100170: nurbsCircle10
+    100172: nurbsCircle11
+    100174: nurbsCircle12
+    100176: nurbsCircle13
+    100178: nurbsCircle14
+    100180: nurbsCircle15
+    100182: nurbsCircle16
+    100184: nurbsCircle17
+    100186: nurbsCircle18
+    100188: nurbsCircle19
+    100190: nurbsCircle2
+    100192: nurbsCircle20
+    100194: nurbsCircle21
+    100196: nurbsCircle22
+    100198: nurbsCircle23
+    100200: nurbsCircle24
+    100202: nurbsCircle25
+    100204: nurbsCircle26
+    100206: nurbsCircle27
+    100208: nurbsCircle29
+    100210: nurbsCircle3
+    100212: nurbsCircle30
+    100214: nurbsCircle32
+    100216: nurbsCircle33
+    100218: nurbsCircle34
+    100220: nurbsCircle35
+    100222: nurbsCircle36
+    100224: nurbsCircle4
+    100226: nurbsCircle5
+    100228: nurbsCircle6
+    100230: nurbsCircle7
+    100232: nurbsCircle8
+    100234: nurbsCircle9
+    100236: r_eye
+    100238: r_head_lower
+    100240: r_head_lower_1
+    100242: r_head_upper
+    100244: r_head_upper_1
+    100246: r_head_upper_2
+    100248: root
+    100250: root_controller
+    100252: sine1Handle
+    100254: sn_body_model
+    100256: sn_body_model 1
+    100258: snake
+    100260: snake2
+    100262: snake_mesh
+    100264: snake_rig
+    100266: //RootNode
+    100268: tongue
+    100270: tongue01
+    100272: tongue02
+    100274: tongue03
+    100276: tongue04
+    100278: tongue05
+    100280: tongue06
+    100282: tongue07
+    100284: tongue08
+    100286: tongue_controller
+    100288: tongue_controller 1
+    100290: tongue_controllers
+    100292: tongue_curve
+    100294: tongue_IK
+    100296: tongue_IK 1
+    100298: tongue_mesh
+    100300: tongue_model
+    100302: tongue_rig
+    400000: _root
+    400002: _root1
+    400004: _root10
+    400006: _root11
+    400008: _root12
+    400010: _root13
+    400012: _root14
+    400014: _root15
+    400016: _root16
+    400018: _root17
+    400020: _root18
+    400022: _root19
+    400024: _root2
+    400026: _root20
+    400028: _root21
+    400030: _root22
+    400032: _root23
+    400034: _root3
+    400036: _root4
+    400038: _root5
+    400040: _root6
+    400042: _root7
+    400044: _root8
+    400046: _root9
+    400048: body
+    400050: body_controller
+    400052: body_controller 1
+    400054: body_IK
+    400056: body_IK 1
+    400058: cluster10Handle
+    400060: cluster11Handle
+    400062: cluster12Handle
+    400064: cluster13Handle
+    400066: cluster14Handle
+    400068: cluster15Handle
+    400070: cluster16Handle
+    400072: cluster17Handle
+    400074: cluster18Handle
+    400076: cluster19Handle
+    400078: cluster1Handle
+    400080: cluster20Handle
+    400082: cluster21Handle
+    400084: cluster22Handle
+    400086: cluster23Handle
+    400088: cluster24Handle
+    400090: cluster25Handle
+    400092: cluster2Handle
+    400094: cluster3Handle
+    400096: cluster4Handle
+    400098: cluster5Handle
+    400100: cluster6Handle
+    400102: cluster7Handle
+    400104: cluster8Handle
+    400106: cluster9Handle
+    400108: cluster_tongue01
+    400110: cluster_tongue02
+    400112: cluster_tongue03
+    400114: cluster_tongue04
+    400116: cluster_tongue05
+    400118: cluster_tongue06
+    400120: cluster_tongue07
+    400122: cluster_tongue08
+    400124: curve_body
+    400126: curve_body 1
+    400128: end
+    400130: eyes
+    400132: ikHandle_body
+    400134: ikHandle_body 1
+    400136: joint1
+    400138: joint1 1
+    400140: joint2
+    400142: joint3
+    400144: joint3_2
+    400146: joint4
+    400148: joint5
+    400150: joint6
+    400152: joint7
+    400154: joint8
+    400156: l_eye
+    400158: l_head_lowel_1
+    400160: l_head_lower
+    400162: l_head_uppel_1
+    400164: l_head_uppel_2
+    400166: l_head_upper
+    400168: nurbsCircle1
+    400170: nurbsCircle10
+    400172: nurbsCircle11
+    400174: nurbsCircle12
+    400176: nurbsCircle13
+    400178: nurbsCircle14
+    400180: nurbsCircle15
+    400182: nurbsCircle16
+    400184: nurbsCircle17
+    400186: nurbsCircle18
+    400188: nurbsCircle19
+    400190: nurbsCircle2
+    400192: nurbsCircle20
+    400194: nurbsCircle21
+    400196: nurbsCircle22
+    400198: nurbsCircle23
+    400200: nurbsCircle24
+    400202: nurbsCircle25
+    400204: nurbsCircle26
+    400206: nurbsCircle27
+    400208: nurbsCircle29
+    400210: nurbsCircle3
+    400212: nurbsCircle30
+    400214: nurbsCircle32
+    400216: nurbsCircle33
+    400218: nurbsCircle34
+    400220: nurbsCircle35
+    400222: nurbsCircle36
+    400224: nurbsCircle4
+    400226: nurbsCircle5
+    400228: nurbsCircle6
+    400230: nurbsCircle7
+    400232: nurbsCircle8
+    400234: nurbsCircle9
+    400236: r_eye
+    400238: r_head_lower
+    400240: r_head_lower_1
+    400242: r_head_upper
+    400244: r_head_upper_1
+    400246: r_head_upper_2
+    400248: root
+    400250: root_controller
+    400252: sine1Handle
+    400254: sn_body_model
+    400256: sn_body_model 1
+    400258: snake
+    400260: snake2
+    400262: snake_mesh
+    400264: snake_rig
+    400266: //RootNode
+    400268: tongue
+    400270: tongue01
+    400272: tongue02
+    400274: tongue03
+    400276: tongue04
+    400278: tongue05
+    400280: tongue06
+    400282: tongue07
+    400284: tongue08
+    400286: tongue_controller
+    400288: tongue_controller 1
+    400290: tongue_controllers
+    400292: tongue_curve
+    400294: tongue_IK
+    400296: tongue_IK 1
+    400298: tongue_mesh
+    400300: tongue_model
+    400302: tongue_rig
+    4300000: r_eye
+    4300002: l_eye
+    4300004: body
+    4300006: tongue
+    7400000: all_anim
+    7400002: snake_idle
+    7400004: snake_move
+    7400006: snake_hesitating
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: body
+    13700002: l_eye
+    13700004: r_eye
+    13700006: tongue
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: all_anim
+      takeName: all_anim
+      firstFrame: 0
+      lastFrame: 1000
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: snake
+        weight: 1
+      - path: snake/sn_body_model
+        weight: 1
+      - path: snake/sn_body_model/body_controller
+        weight: 1
+      - path: snake/sn_body_model/body_controller/body_IK
+        weight: 1
+      - path: snake/sn_body_model/body_controller/body_IK/curve_body
+        weight: 1
+      - path: snake/sn_body_model/body_controller/body_IK/ikHandle_body
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle2
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle2/cluster2Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle3
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle3/cluster3Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle4
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle4/cluster4Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle5
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle5/cluster5Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle6
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle6/cluster6Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle7
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle7/cluster7Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle8
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle8/cluster8Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle9
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle9/cluster9Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle10
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle10/cluster10Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle11
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle11/cluster11Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle12
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle12/cluster12Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle13
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle13/cluster13Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle14
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle14/cluster14Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle15
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle15/cluster15Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle16
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle16/cluster16Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle17
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle17/cluster17Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle18
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle18/cluster18Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle19
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle19/cluster19Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle20
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle20/cluster20Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle21
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle21/cluster21Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle22
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle22/cluster22Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle23
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle23/cluster23Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle24
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle24/cluster24Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle25
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle25/cluster25Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle1
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle1/cluster1Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle34
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle34/nurbsCircle27
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle34/nurbsCircle29
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle34/nurbsCircle30
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle34/nurbsCircle32
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/nurbsCircle26
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/nurbsCircle33
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue01
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue01/cluster_tongue01
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue02
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue02/cluster_tongue02
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue03
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue03/cluster_tongue03
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue04
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue04/cluster_tongue04
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue05
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue05/cluster_tongue05
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue06
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue06/cluster_tongue06
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue07
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue07/cluster_tongue07
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue08
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue08/cluster_tongue08
+        weight: 1
+      - path: snake/sn_body_model/body_controller/root_controller
+        weight: 1
+      - path: snake/sn_body_model/snake_mesh
+        weight: 1
+      - path: snake/sn_body_model/snake_mesh/body
+        weight: 1
+      - path: snake/sn_body_model/snake_mesh/eyes
+        weight: 1
+      - path: snake/sn_body_model/snake_mesh/eyes/l_eye
+        weight: 1
+      - path: snake/sn_body_model/snake_mesh/eyes/r_eye
+        weight: 1
+      - path: snake/sn_body_model/snake_rig
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22/_root23
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22/_root23/end
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_lower
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_lower/l_head_lowel_1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_upper
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_upper/joint1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_upper/l_head_uppel_1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_upper/l_head_uppel_1/l_head_uppel_2
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_lower
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_lower/r_head_lower_1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_upper
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_upper/joint1 1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_upper/r_head_upper_1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_upper/r_head_upper_1/r_head_upper_2
+        weight: 1
+      - path: snake/sn_body_model/tongue_model
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_controller
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_controller/tongue_IK
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_controller/tongue_IK/tongue_curve
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_controller/tongue_IK/tongue_IK
+          1
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_mesh
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_mesh/tongue
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4/joint5
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4/joint5/joint6
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4/joint5/joint6/joint7/joint8/joint3
+        weight: 1
+      - path: snake2
+        weight: 1
+      - path: snake2/sine1Handle
+        weight: 1
+      - path: snake2/sn_body_model 1
+        weight: 1
+      - path: snake2/sn_body_model 1/body_controller 1
+        weight: 1
+      - path: snake2/sn_body_model 1/body_controller 1/body_IK 1
+        weight: 1
+      - path: snake2/sn_body_model 1/body_controller 1/body_IK 1/curve_body 1
+        weight: 1
+      - path: snake2/sn_body_model 1/body_controller 1/body_IK 1/ikHandle_body 1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: snake_idle
+      takeName: all_anim
+      firstFrame: 420
+      lastFrame: 670
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: snake
+        weight: 1
+      - path: snake/sn_body_model
+        weight: 1
+      - path: snake/sn_body_model/body_controller
+        weight: 1
+      - path: snake/sn_body_model/body_controller/body_IK
+        weight: 1
+      - path: snake/sn_body_model/body_controller/body_IK/curve_body
+        weight: 1
+      - path: snake/sn_body_model/body_controller/body_IK/ikHandle_body
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle2
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle2/cluster2Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle3
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle3/cluster3Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle4
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle4/cluster4Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle5
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle5/cluster5Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle6
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle6/cluster6Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle7
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle7/cluster7Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle8
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle8/cluster8Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle9
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle9/cluster9Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle10
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle10/cluster10Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle11
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle11/cluster11Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle12
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle12/cluster12Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle13
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle13/cluster13Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle14
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle14/cluster14Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle15
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle15/cluster15Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle16
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle16/cluster16Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle17
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle17/cluster17Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle18
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle18/cluster18Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle19
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle19/cluster19Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle20
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle20/cluster20Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle21
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle21/cluster21Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle22
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle22/cluster22Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle23
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle23/cluster23Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle24
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle24/cluster24Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle25
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle25/cluster25Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle1
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle1/cluster1Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle34
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle34/nurbsCircle27
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle34/nurbsCircle29
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle34/nurbsCircle30
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle34/nurbsCircle32
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/nurbsCircle26
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/nurbsCircle33
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue01
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue01/cluster_tongue01
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue02
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue02/cluster_tongue02
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue03
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue03/cluster_tongue03
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue04
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue04/cluster_tongue04
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue05
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue05/cluster_tongue05
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue06
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue06/cluster_tongue06
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue07
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue07/cluster_tongue07
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue08
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue08/cluster_tongue08
+        weight: 1
+      - path: snake/sn_body_model/body_controller/root_controller
+        weight: 1
+      - path: snake/sn_body_model/snake_mesh
+        weight: 1
+      - path: snake/sn_body_model/snake_mesh/body
+        weight: 1
+      - path: snake/sn_body_model/snake_mesh/eyes
+        weight: 1
+      - path: snake/sn_body_model/snake_mesh/eyes/l_eye
+        weight: 1
+      - path: snake/sn_body_model/snake_mesh/eyes/r_eye
+        weight: 1
+      - path: snake/sn_body_model/snake_rig
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22/_root23
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22/_root23/end
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_lower
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_lower/l_head_lowel_1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_upper
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_upper/joint1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_upper/l_head_uppel_1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_upper/l_head_uppel_1/l_head_uppel_2
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_lower
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_lower/r_head_lower_1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_upper
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_upper/joint1 1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_upper/r_head_upper_1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_upper/r_head_upper_1/r_head_upper_2
+        weight: 1
+      - path: snake/sn_body_model/tongue_model
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_controller
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_controller/tongue_IK
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_controller/tongue_IK/tongue_curve
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_controller/tongue_IK/tongue_IK
+          1
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_mesh
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_mesh/tongue
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4/joint5
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4/joint5/joint6
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4/joint5/joint6/joint7/joint8/joint3
+        weight: 1
+      - path: snake2
+        weight: 1
+      - path: snake2/sine1Handle
+        weight: 1
+      - path: snake2/sn_body_model 1
+        weight: 1
+      - path: snake2/sn_body_model 1/body_controller 1
+        weight: 1
+      - path: snake2/sn_body_model 1/body_controller 1/body_IK 1
+        weight: 1
+      - path: snake2/sn_body_model 1/body_controller 1/body_IK 1/curve_body 1
+        weight: 1
+      - path: snake2/sn_body_model 1/body_controller 1/body_IK 1/ikHandle_body 1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: snake_move
+      takeName: all_anim
+      firstFrame: 90
+      lastFrame: 233
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: snake
+        weight: 1
+      - path: snake/sn_body_model
+        weight: 1
+      - path: snake/sn_body_model/body_controller
+        weight: 1
+      - path: snake/sn_body_model/body_controller/body_IK
+        weight: 1
+      - path: snake/sn_body_model/body_controller/body_IK/curve_body
+        weight: 1
+      - path: snake/sn_body_model/body_controller/body_IK/ikHandle_body
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle2
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle2/cluster2Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle3
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle3/cluster3Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle4
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle4/cluster4Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle5
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle5/cluster5Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle6
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle6/cluster6Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle7
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle7/cluster7Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle8
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle8/cluster8Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle9
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle9/cluster9Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle10
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle10/cluster10Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle11
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle11/cluster11Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle12
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle12/cluster12Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle13
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle13/cluster13Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle14
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle14/cluster14Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle15
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle15/cluster15Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle16
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle16/cluster16Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle17
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle17/cluster17Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle18
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle18/cluster18Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle19
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle19/cluster19Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle20
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle20/cluster20Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle21
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle21/cluster21Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle22
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle22/cluster22Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle23
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle23/cluster23Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle24
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle24/cluster24Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle25
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle25/cluster25Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle1
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle1/cluster1Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle34
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle34/nurbsCircle27
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle34/nurbsCircle29
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle34/nurbsCircle30
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle34/nurbsCircle32
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/nurbsCircle26
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/nurbsCircle33
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue01
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue01/cluster_tongue01
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue02
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue02/cluster_tongue02
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue03
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue03/cluster_tongue03
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue04
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue04/cluster_tongue04
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue05
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue05/cluster_tongue05
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue06
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue06/cluster_tongue06
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue07
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue07/cluster_tongue07
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue08
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue08/cluster_tongue08
+        weight: 1
+      - path: snake/sn_body_model/body_controller/root_controller
+        weight: 1
+      - path: snake/sn_body_model/snake_mesh
+        weight: 1
+      - path: snake/sn_body_model/snake_mesh/body
+        weight: 1
+      - path: snake/sn_body_model/snake_mesh/eyes
+        weight: 1
+      - path: snake/sn_body_model/snake_mesh/eyes/l_eye
+        weight: 1
+      - path: snake/sn_body_model/snake_mesh/eyes/r_eye
+        weight: 1
+      - path: snake/sn_body_model/snake_rig
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22/_root23
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22/_root23/end
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_lower
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_lower/l_head_lowel_1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_upper
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_upper/joint1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_upper/l_head_uppel_1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_upper/l_head_uppel_1/l_head_uppel_2
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_lower
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_lower/r_head_lower_1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_upper
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_upper/joint1 1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_upper/r_head_upper_1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_upper/r_head_upper_1/r_head_upper_2
+        weight: 1
+      - path: snake/sn_body_model/tongue_model
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_controller
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_controller/tongue_IK
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_controller/tongue_IK/tongue_curve
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_controller/tongue_IK/tongue_IK
+          1
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_mesh
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_mesh/tongue
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4/joint5
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4/joint5/joint6
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4/joint5/joint6/joint7/joint8/joint3
+        weight: 1
+      - path: snake2
+        weight: 1
+      - path: snake2/sine1Handle
+        weight: 1
+      - path: snake2/sn_body_model 1
+        weight: 1
+      - path: snake2/sn_body_model 1/body_controller 1
+        weight: 1
+      - path: snake2/sn_body_model 1/body_controller 1/body_IK 1
+        weight: 1
+      - path: snake2/sn_body_model 1/body_controller 1/body_IK 1/curve_body 1
+        weight: 1
+      - path: snake2/sn_body_model 1/body_controller 1/body_IK 1/ikHandle_body 1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: snake_hesitating
+      takeName: all_anim
+      firstFrame: 670
+      lastFrame: 800
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: snake
+        weight: 1
+      - path: snake/sn_body_model
+        weight: 1
+      - path: snake/sn_body_model/body_controller
+        weight: 1
+      - path: snake/sn_body_model/body_controller/body_IK
+        weight: 1
+      - path: snake/sn_body_model/body_controller/body_IK/curve_body
+        weight: 1
+      - path: snake/sn_body_model/body_controller/body_IK/ikHandle_body
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle2
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle2/cluster2Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle3
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle3/cluster3Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle4
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle4/cluster4Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle5
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle5/cluster5Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle6
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle6/cluster6Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle7
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle7/cluster7Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle8
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle8/cluster8Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle9
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle9/cluster9Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle10
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle10/cluster10Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle11
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle11/cluster11Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle12
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle12/cluster12Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle13
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle13/cluster13Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle14
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle14/cluster14Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle15
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle15/cluster15Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle16
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle16/cluster16Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle17
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle17/cluster17Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle18
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle18/cluster18Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle19
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle19/cluster19Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle20
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle20/cluster20Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle21
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle21/cluster21Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle22
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle22/cluster22Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle23
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle23/cluster23Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle24
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle24/cluster24Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle25
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle25/cluster25Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle1
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle1/cluster1Handle
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle34
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle34/nurbsCircle27
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle34/nurbsCircle29
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle34/nurbsCircle30
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle34/nurbsCircle32
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/nurbsCircle26
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/nurbsCircle33
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue01
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue01/cluster_tongue01
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue02
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue02/cluster_tongue02
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue03
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue03/cluster_tongue03
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue04
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue04/cluster_tongue04
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue05
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue05/cluster_tongue05
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue06
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue06/cluster_tongue06
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue07
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue07/cluster_tongue07
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue08
+        weight: 1
+      - path: snake/sn_body_model/body_controller/nurbsCircle36/nurbsCircle35/tongue_controller
+          1/tongue_controllers/tongue08/cluster_tongue08
+        weight: 1
+      - path: snake/sn_body_model/body_controller/root_controller
+        weight: 1
+      - path: snake/sn_body_model/snake_mesh
+        weight: 1
+      - path: snake/sn_body_model/snake_mesh/body
+        weight: 1
+      - path: snake/sn_body_model/snake_mesh/eyes
+        weight: 1
+      - path: snake/sn_body_model/snake_mesh/eyes/l_eye
+        weight: 1
+      - path: snake/sn_body_model/snake_mesh/eyes/r_eye
+        weight: 1
+      - path: snake/sn_body_model/snake_rig
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22/_root23
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/_root1/_root2/_root3/_root4/_root5/_root6/_root7/_root8/_root9/_root10/_root11/_root12/_root13/_root14/_root15/_root16/_root17/_root18/_root19/_root20/_root21/_root22/_root23/end
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_lower
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_lower/l_head_lowel_1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_upper
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_upper/joint1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_upper/l_head_uppel_1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/l_head_upper/l_head_uppel_1/l_head_uppel_2
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_lower
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_lower/r_head_lower_1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_upper
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_upper/joint1 1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_upper/r_head_upper_1
+        weight: 1
+      - path: snake/sn_body_model/snake_rig/root/_root/r_head_upper/r_head_upper_1/r_head_upper_2
+        weight: 1
+      - path: snake/sn_body_model/tongue_model
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_controller
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_controller/tongue_IK
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_controller/tongue_IK/tongue_curve
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_controller/tongue_IK/tongue_IK
+          1
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_mesh
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_mesh/tongue
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4/joint5
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4/joint5/joint6
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: snake/sn_body_model/tongue_model/tongue_rig/joint2/joint3_2/joint4/joint5/joint6/joint7/joint8/joint3
+        weight: 1
+      - path: snake2
+        weight: 1
+      - path: snake2/sine1Handle
+        weight: 1
+      - path: snake2/sn_body_model 1
+        weight: 1
+      - path: snake2/sn_body_model 1/body_controller 1
+        weight: 1
+      - path: snake2/sn_body_model 1/body_controller 1/body_IK 1
+        weight: 1
+      - path: snake2/sn_body_model 1/body_controller 1/body_IK 1/curve_body 1
+        weight: 1
+      - path: snake2/sn_body_model 1/body_controller 1/body_IK 1/ikHandle_body 1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

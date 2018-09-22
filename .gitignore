@@ -92,7 +92,6 @@ artifacts/
 *_p.c
 *_i.h
 *.ilk
-*.meta
 *.obj
 *.pch
 *.pgc
@@ -330,5 +329,22 @@ __pycache__/
 # By default, sensitive information, such as encrypted password
 # should be stored in the .pubxml.user file.
 
+### Maya ###
+Resources/*/maya/*
+!Resources/*/maya/Assets/
+Resources/*/maya/Assets/*
+!Resources/*/maya/Assets/*.fbx
+
+### Textures ###
+Resources/*/textures/*
+!Resources/*/textures/*.png
+!Resources/*/textures/*.jpg
+!Resources/*/textures/combine/
+Resources/*/textures/combine/*
+!Resources/*/textures/combine/*.png
+!Resources/*/textures/combine/*.jpg
+
+### Substance Painter 2 ###
+Resources/*/substance-painter/*
 
 # End of https://www.gitignore.io/api/unity,visualstudio

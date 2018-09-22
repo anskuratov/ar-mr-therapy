@@ -173,16 +173,16 @@ public class ARGUIController : MonoBehaviour, ITangoLifecycle, ITangoDepth
     /// </summary>
     public void OnGUI()
     {
-        Rect distortionButtonRec = new Rect(UI_BUTTON_GAP_X,
-                                            Screen.height - UI_BUTTON_SIZE_Y - UI_BUTTON_GAP_X,
-                                            UI_BUTTON_SIZE_X,
-                                            UI_BUTTON_SIZE_Y);
-        string isOn = m_arCameraPostProcess.enabled ? "Off" : "On";
-        if (GUI.Button(distortionButtonRec,
-                       UI_FONT_SIZE + "Turn Distortion " + isOn + "</size>"))
-        {
-            m_arCameraPostProcess.enabled = !m_arCameraPostProcess.enabled;
-        }
+//        Rect distortionButtonRec = new Rect(UI_BUTTON_GAP_X,
+//                                            Screen.height - UI_BUTTON_SIZE_Y - UI_BUTTON_GAP_X,
+//                                            UI_BUTTON_SIZE_X,
+//                                            UI_BUTTON_SIZE_Y);
+//        string isOn = m_arCameraPostProcess.enabled ? "Off" : "On";
+//        if (GUI.Button(distortionButtonRec,
+//                       UI_FONT_SIZE + "Turn Distortion " + isOn + "</size>"))
+//        {
+//            m_arCameraPostProcess.enabled = !m_arCameraPostProcess.enabled;
+//        }
 
         if (m_showDebug && m_tangoApplication.HasRequiredPermissions)
         {
