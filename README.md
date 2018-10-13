@@ -53,22 +53,16 @@
 * **fr[415-490]**: Movement;
 * **fr[491-520]**: Movement **→** Bind Pose.
 
-## Table of Contents
+## System Requirements
 
-## Installation
-
-## Usage
+This application will work just on Lenovo Phab 2 Pro.
 
 ## Credits
 
-## License
-MIT License
+The project was developed during BSc studies and we would like to thank our scientific supervisor [Tadamasa Sawada](https://www.hse.ru/en/staff/tsawada) and advisor [Tomas Jurcik](https://www.hse.ru/en/org/persons/198160260) for their involvement in this project.
 
+## License
 [Nikita Sergeev](https://github.com/ndsergeev) | [Andrew Skuratov](https://github.com/anskuratov)
 Copyright 2018
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+**The MIT licence does not apply to FBX animal models.** All animal models were developed in Autodesk Maya Student Version and you **must not** use them for commercial purposes, check the [link](https://www.autodesk.com/company/terms-of-use/en/subscription-types#education) for details.
