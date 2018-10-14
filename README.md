@@ -4,7 +4,7 @@
 
 ## Description
 
-  The developed MR system is based on a **_Google  Tango_** smartphone (Lenovo Phab 2 Pro). This smartphone is equipped with motion tracking and depth sensors. It allows the system to integrate depth information in a scene efficiently. The system will reconstruct the surface in the scene including its illuminant condition and will detect the ground plane of the scene and other planes as well with the support of Tango SDK. Then, a 3D model of a virtual animal will be added to the reconstructed scene, and the scene with the animal will be rendered using Unity game engine. The rendered image will be shown on the screen of the smartphone so that the image will be seen by an observer using a VR (virtual reality) smartphone holder (e.g., Google cardboard). The system will operate this whole process in real time.
+The developed augmented reality system is based on a **_Google  Tango_** smartphone (Lenovo Phab 2 Pro). This smartphone is equipped with motion tracking and depth sensors. It allows the system to integrate depth information in a scene efficiently. The system reconstructs the surface in the scene including its illuminant condition and detects the ground plane of the scene and other planes as well with the support of Tango SDK. Then, a 3D model of a virtual animal adds to the reconstructed scene, and the scene with the animal renders using the Unity game engine. The rendered image superimposed on the video stream in real-time so that the image is seen by an observer using a VR (virtual reality) headset (e.g., Google cardboard).
 
 ### Animals implemented
 
