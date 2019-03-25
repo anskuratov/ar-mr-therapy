@@ -40,7 +40,7 @@ The developed augmented reality system is based on a **_Google  Tango_** smartph
 #### 3. Rat
   ![The rat render](https://github.com/AnSkuratov/ar-exp-therapy/blob/master/pic/rat_gh.jpg)
 
-  We selected rat as one of the disgusting and frequently faced animal in Russia. For example, it is possible to meet a rat in the Moscow subway, near garbage cans, in cellars. Some people consider rats as potential disease carriers what cause fear and phobic avoidance of this animal.
+  We selected rat as one of the disgusting and frequently faced animal in Russia. For example, it is _possible_ to meet a rat in the Moscow subway, near garbage cans, in cellars. Some people consider rats as potential disease carriers what cause fear and phobic avoidance of this animal.
 
 ###### List of animations ([rat_60fps](https://github.com/anskuratov/ar-exp-therapy/blob/models/Resources/rat/maya/Assets/rat_60fps.fbx)):
 
@@ -56,6 +56,8 @@ The developed augmented reality system is based on a **_Google  Tango_** smartph
 ## System Requirements
 
 This application will work just on Lenovo Phab 2 Pro.
+
+Be aware, before cloning you need intalled [git-lfs](https://github.com/git-lfs/git-lfs/wiki/Tutorial).
 
 ## Credits
 
